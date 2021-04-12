@@ -12,8 +12,4 @@
 
 # 使用方法
 
-打开![image-20210412183953779](C:\Users\eastarpen\AppData\Roaming\Typora\typora-user-images\image-20210412183953779.png)
-
-或
-
-运行
+打开
