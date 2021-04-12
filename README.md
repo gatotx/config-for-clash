@@ -108,6 +108,6 @@ config_file_name: test.yaml
 
 # 其他
 
-本项目附带`@`ugvf2009的[Miles](https://github.com/ugvf2009/Miles)收集的免费订阅地址
+本项目附带@ugvf2009的[Miles](https://github.com/ugvf2009/Miles)收集的免费订阅地址
 
-配置文件中rule-providers复制自`@`Loyalsoldier的[clash-rules](https://github.com/Loyalsoldier/clash-rules)项目
+配置文件中rule-providers复制自@Loyalsoldier的[clash-rules](https://github.com/Loyalsoldier/clash-rules)项目
