@@ -42,7 +42,7 @@ config_file_name: test.yaml
 
 运行`_main.py`
 
-![picture]()
+![image](https://github.com/eastarpen/config-for-clash/blob/master/Picture/Snipaste_2021-04-12_19-08-38.jpg)
 
 要生成多少配置文件就输入几
 
