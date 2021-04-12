@@ -25,8 +25,6 @@
 
 内容包括：机场名字，对应的url，获得节点数量，生成的配置文件名称
 
-### 文件示例：
-![image]()
 ### 内容示例：
 ```
 airpot_name: erye
@@ -93,3 +91,23 @@ config_file_name: test.yaml
 ![picture](https://github.com/eastarpen/config-for-clash/blob/master/Picture/Snipaste_2021-04-12_19-29-45.jpg)
 
 若选择不生成`archives.json`可按上图操作
+
+# 问题
+
+1.示例订阅地址必须关闭代理才能下载
+2.有些地址开代理无法下载
+3.必须按照指定形式输入，没有异常处理机制
+
+#TODO
+
+1. vless,和ssr的解析
+2. 完善异常设计
+3. 解决下载问题
+4. 打包为exe文件
+5. 可视化开发
+
+# 其他
+
+本项目附带@ugvf2009的[Miles](https://github.com/ugvf2009/Miles)收集的免费订阅地址
+
+配置文件中rule-providers复制自@Loyalsoldier的[clash-rules](https://github.com/Loyalsoldier/clash-rules)项目
