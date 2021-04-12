@@ -12,4 +12,4 @@
 
 # 使用方法
 
-打开https://github.com/eastarpen/config-for-clash/blob/master/Picture/image-20210412184039515.png
+打开![image](https://github.com/eastarpen/config-for-clash/blob/master/Picture/image-20210412184039515.png)
