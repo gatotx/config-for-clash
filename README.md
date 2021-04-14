@@ -14,8 +14,8 @@
 
 # 使用方法
 
-1. [本地使用]()
-2. [使用订阅链接]()
+1. [本地使用](https://github.com/eastarpen/config-for-clash/blob/master/code/readme.md)
+2. [使用订阅链接](https://github.com/eastarpen/config-for-clash/blob/master/subscription/readme.md)
 
 # TODO
 
