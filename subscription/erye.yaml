@@ -31,116 +31,80 @@ tun:
   macOS-auto-detect-interface: true # 自动检测出口网卡
 #在此导入所有节点
 proxies:
-  - {'name': '104.18.7.1381', 'type': 'vmess', 'server': '104.18.7.138', 'port': '443', 'uuid': '3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
-  - {'name': 'ShareCentre+United+States,2', 'server': 'v2n10t3.fastjet.info', 'port': '443', 'type': 'trojan', 'password': 'xman-123-jjk', 'sni': 'v2n10t3.fastjet.info'}
-  - {'name': '89.187.163.2123', 'server': '89.187.163.212', 'port': '33992', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '8n6pwAcrrv2pj6tFY2p3TbQ6'}
-  - {'name': '185.2.100.1664', 'server': '185.2.100.166', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '107.181.166.555', 'server': '107.181.166.55', 'port': '33992', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '8n6pwAcrrv2pj6tFY2p3TbQ6'}
-  - {'name': '185.44.76.1646', 'server': '185.44.76.164', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '156.146.33.797', 'server': '156.146.33.79', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '156.146.33.838', 'server': '156.146.33.83', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '212.102.35.2169', 'server': '212.102.35.216', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '2.58.46.510', 'server': '2.58.46.5', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '2.58.46.311', 'server': '2.58.46.3', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': 'virmachzhi.l5420.ml_trojan_ws13', 'server': 'virmachzhi.l5420.ml', 'port': '443', 'type': 'trojan', 'password': 'd6c45c94-1ca7-4e47-925c-ffa26c8083c1', 'sni': 'virmachzhi.l5420.ml'}
-  - {'name': '104.19.23.2314', 'type': 'vmess', 'server': '104.19.23.23', 'port': '443', 'uuid': 'd6c45c94-1ca7-4e47-925c-ffa26c8083c1', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/databasevws'}
-  - {'name': '172.67.54.616', 'type': 'vmess', 'server': '172.67.54.6', 'port': '443', 'uuid': 'd6c45c94-1ca7-4e47-925c-ffa26c8083c1', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/databasevws'}
-  - {'name': '104.21.36.10317', 'type': 'vmess', 'server': '104.21.36.103', 'port': '443', 'uuid': 'd6c45c94-1ca7-4e47-925c-ffa26c8083c1', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/databasevws'}
-  - {'name': 'woaini.mrx520.ml19', 'type': 'vmess', 'server': 'woaini.mrx520.ml', 'port': '443', 'uuid': 'dd1479f2-6992-4df2-80e4-426f90b90412', 'alterId': '0', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
-  - {'name': '194.87.215.5720', 'type': 'vmess', 'server': '194.87.215.57', 'port': '17219', 'uuid': 'b3c1db3d-44df-42ca-8781-10eb527a8417', 'alterId': '0', 'cipher': 'none'}
-  - {'name': '104.19.23.2321', 'type': 'vmess', 'server': '104.19.23.23', 'port': '443', 'uuid': 'dd1479f2-6992-4df2-80e4-426f90b90412', 'alterId': '0', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
-  - {'name': '172.67.54.622', 'type': 'vmess', 'server': '172.67.54.6', 'port': '443', 'uuid': 'dd1479f2-6992-4df2-80e4-426f90b90412', 'alterId': '0', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
-  - {'name': '104.21.36.10323', 'type': 'vmess', 'server': '104.21.36.103', 'port': '443', 'uuid': 'dd1479f2-6992-4df2-80e4-426f90b90412', 'alterId': '0', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
-  - {'name': 'hk01.indihome.tk24', 'type': 'vmess', 'server': 'hk01.indihome.tk', 'port': '20013', 'uuid': '7a2dac45-58ce-49e9-86f3-c85f8cca97b3', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'bgp4.gemgems.net25', 'server': 'bgp4.gemgems.net', 'port': '17194', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Gt29TROd1mpX'}
-  - {'name': '37.120.194.9126', 'server': '37.120.194.91', 'port': '33992', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '8n6pwAcrrv2pj6tFY2p3TbQ6'}
-  - {'name': '37.120.194.10927', 'server': '37.120.194.109', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '193.29.107.11728', 'server': '193.29.107.117', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '89.45.7.5129', 'server': '89.45.7.51', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '37.120.194.9130', 'server': '37.120.194.91', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '193.29.107.12531', 'server': '193.29.107.125', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '193.29.107.9132', 'server': '193.29.107.91', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '178.238.231.5333', 'server': '178.238.231.53', 'port': '31764', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'YgusH2MWA8PWc3p2VDsR7AVv'}
-  - {'name': '178.238.231.5334', 'server': '178.238.231.53', 'port': '33992', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '8n6pwAcrrv2pj6tFY2p3TbQ6'}
-  - {'name': '193.29.106.535', 'server': '193.29.106.5', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '185.141.206.17036', 'server': '185.141.206.170', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '185.134.23.4037', 'server': '185.134.23.40', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '185.141.206.18638', 'server': '185.141.206.186', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '185.102.217.16139', 'server': '185.102.217.161', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '185.102.217.15940', 'server': '185.102.217.159', 'port': '34687', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'txmK9WhwP6WPhP7hqSBLVxpN'}
-  - {'name': '185.102.217.15941', 'server': '185.102.217.159', 'port': '31764', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'YgusH2MWA8PWc3p2VDsR7AVv'}
-  - {'name': '185.102.217.15942', 'server': '185.102.217.159', 'port': '38620', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Kquv5UhvZXNMemAQy8DxZ7qn'}
-  - {'name': '143.244.57.9143', 'server': '143.244.57.91', 'port': '38742', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'DKXfWwc4ebscpXTKpbt85rSH'}
-  - {'name': '143.244.57.9144', 'server': '143.244.57.91', 'port': '40093', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'x23Z4LGkGDkThZ9Kaz4DURQp'}
-  - {'name': '143.244.57.9145', 'server': '143.244.57.91', 'port': '35294', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'J9Y2ncrdPEC38gwydNFFGBna'}
-  - {'name': '143.244.57.9146', 'server': '143.244.57.91', 'port': '34687', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'txmK9WhwP6WPhP7hqSBLVxpN'}
-  - {'name': '143.244.57.9147', 'server': '143.244.57.91', 'port': '34815', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'LkFAzkzXkSCRYa2CsRdL8cGb'}
-  - {'name': '143.244.57.9148', 'server': '143.244.57.91', 'port': '31944', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'aYNeKDMzYQYw4KbUbJA8Wszq'}
-  - {'name': '143.244.57.9149', 'server': '143.244.57.91', 'port': '31764', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'YgusH2MWA8PWc3p2VDsR7AVv'}
-  - {'name': '89.46.223.23950', 'server': '89.46.223.239', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '212.102.35.20651', 'server': '212.102.35.206', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '89.187.168.4152', 'server': '89.187.168.41', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '104.148.30.8553', 'server': '104.148.30.85', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '104.200.131.24554', 'server': '104.200.131.245', 'port': '31944', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'aYNeKDMzYQYw4KbUbJA8Wszq'}
-  - {'name': '143.244.42.6655', 'server': '143.244.42.66', 'port': '40093', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'x23Z4LGkGDkThZ9Kaz4DURQp'}
-  - {'name': '143.244.57.9156', 'server': '143.244.57.91', 'port': '37588', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'kD9vkjnE6dsUzwQfvKkPkQAd'}
-  - {'name': '143.244.60.16257', 'server': '143.244.60.162', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '143.244.60.16458', 'server': '143.244.60.164', 'port': '33992', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '8n6pwAcrrv2pj6tFY2p3TbQ6'}
-  - {'name': '143.244.60.17259', 'server': '143.244.60.172', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '143.244.60.17460', 'server': '143.244.60.174', 'port': '40093', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'x23Z4LGkGDkThZ9Kaz4DURQp'}
-  - {'name': '154.16.171.21361', 'server': '154.16.171.213', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '154.16.171.21562', 'server': '154.16.171.215', 'port': '40093', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'x23Z4LGkGDkThZ9Kaz4DURQp'}
-  - {'name': '154.16.171.21563', 'server': '154.16.171.215', 'port': '35294', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'J9Y2ncrdPEC38gwydNFFGBna'}
-  - {'name': '154.16.171.21564', 'server': '154.16.171.215', 'port': '37588', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'kD9vkjnE6dsUzwQfvKkPkQAd'}
-  - {'name': '154.16.171.21565', 'server': '154.16.171.215', 'port': '31764', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'YgusH2MWA8PWc3p2VDsR7AVv'}
-  - {'name': '154.16.171.21566', 'server': '154.16.171.215', 'port': '34687', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'txmK9WhwP6WPhP7hqSBLVxpN'}
-  - {'name': '173.237.207.3067', 'server': '173.237.207.30', 'port': '31572', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'n8w4StnbVD9dmXYn4Ajt87EA'}
-  - {'name': '149.248.62.8268', 'type': 'vmess', 'server': '149.248.62.82', 'port': '443', 'uuid': 'a5da92c8-ee60-38e2-81c1-833767e1db87', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/d2x25dd'}
-  - {'name': 'fukyo.ssff666.workers.dev69', 'type': 'vmess', 'server': 'fukyo.ssff666.workers.dev', 'port': '443', 'uuid': 'ad806487-2d26-4636-98b6-ab85cc8521f7', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
-  - {'name': '199.10.64.13370', 'server': '199.10.64.133', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '185.124.240.14571', 'server': '185.124.240.145', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '66.115.175.4072', 'server': '66.115.175.40', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '207.244.84.4073', 'server': '207.244.84.40', 'port': '34687', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'txmK9WhwP6WPhP7hqSBLVxpN'}
-  - {'name': '207.244.127.11874', 'server': '207.244.127.118', 'port': '33148', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CMduaFXddcQbwNAAs7xFDnc8'}
-  - {'name': '79.110.54.13175', 'server': '79.110.54.131', 'port': '33992', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '8n6pwAcrrv2pj6tFY2p3TbQ6'}
-  - {'name': '45.89.173.20576', 'server': '45.89.173.205', 'port': '33992', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '8n6pwAcrrv2pj6tFY2p3TbQ6'}
-  - {'name': '198.147.22.8777', 'server': '198.147.22.87', 'port': '31757', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'wj7nDCuNARchSeKNCN8VFK62'}
-  - {'name': '66.115.175.4078', 'server': '66.115.175.40', 'port': '33992', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '8n6pwAcrrv2pj6tFY2p3TbQ6'}
-  - {'name': '185.124.240.16979', 'server': '185.124.240.169', 'port': '33992', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '8n6pwAcrrv2pj6tFY2p3TbQ6'}
-  - {'name': '89.187.187.7680', 'server': '89.187.187.76', 'port': '40093', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'x23Z4LGkGDkThZ9Kaz4DURQp'}
-  - {'name': '66.115.175.4081', 'server': '66.115.175.40', 'port': '38742', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'DKXfWwc4ebscpXTKpbt85rSH'}
-  - {'name': '192.40.59.22982', 'server': '192.40.59.229', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '66.115.175.4083', 'server': '66.115.175.40', 'port': '33998', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'NHwQTPLCfaTMSqTnU3mjcSxe'}
-  - {'name': '79.110.54.11584', 'server': '79.110.54.115', 'port': '40093', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'x23Z4LGkGDkThZ9Kaz4DURQp'}
-  - {'name': '209.216.92.585', 'server': '209.216.92.5', 'port': '37588', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'kD9vkjnE6dsUzwQfvKkPkQAd'}
-  - {'name': '207.244.127.11886', 'server': '207.244.127.118', 'port': '40093', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'x23Z4LGkGDkThZ9Kaz4DURQp'}
-  - {'name': '89.187.187.7687', 'server': '89.187.187.76', 'port': '33148', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CMduaFXddcQbwNAAs7xFDnc8'}
-  - {'name': '66.115.182.6988', 'server': '66.115.182.69', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '207.244.84.5889', 'server': '207.244.84.58', 'port': '33992', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '8n6pwAcrrv2pj6tFY2p3TbQ6'}
-  - {'name': '209.216.92.390', 'server': '209.216.92.3', 'port': '37588', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'kD9vkjnE6dsUzwQfvKkPkQAd'}
-  - {'name': '198.147.22.8791', 'server': '198.147.22.87', 'port': '34815', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'LkFAzkzXkSCRYa2CsRdL8cGb'}
-  - {'name': '185.124.240.15392', 'server': '185.124.240.153', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '207.244.127.11893', 'server': '207.244.127.118', 'port': '31572', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'n8w4StnbVD9dmXYn4Ajt87EA'}
-  - {'name': '207.244.84.4094', 'server': '207.244.84.40', 'port': '33998', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'NHwQTPLCfaTMSqTnU3mjcSxe'}
-  - {'name': '209.216.92.395', 'server': '209.216.92.3', 'port': '35294', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'J9Y2ncrdPEC38gwydNFFGBna'}
-  - {'name': '198.147.22.8796', 'server': '198.147.22.87', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '185.124.240.15997', 'server': '185.124.240.159', 'port': '38742', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'DKXfWwc4ebscpXTKpbt85rSH'}
-  - {'name': '74.119.146.13198', 'server': '74.119.146.131', 'port': '40093', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'x23Z4LGkGDkThZ9Kaz4DURQp'}
-  - {'name': '188.92.78.14599', 'server': '188.92.78.145', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '188.92.78.152100', 'server': '188.92.78.152', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '188.92.78.145101', 'server': '188.92.78.145', 'port': '33992', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '8n6pwAcrrv2pj6tFY2p3TbQ6'}
-  - {'name': '37.120.221.5102', 'server': '37.120.221.5', 'port': '31944', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'aYNeKDMzYQYw4KbUbJA8Wszq'}
-  - {'name': '37.120.221.5103', 'server': '37.120.221.5', 'port': '35294', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'J9Y2ncrdPEC38gwydNFFGBna'}
-  - {'name': '87.239.254.20104', 'server': '87.239.254.20', 'port': '31572', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'n8w4StnbVD9dmXYn4Ajt87EA'}
-  - {'name': '185.188.61.35105', 'server': '185.188.61.35', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '185.188.61.35106', 'server': '185.188.61.35', 'port': '37588', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'kD9vkjnE6dsUzwQfvKkPkQAd'}
-  - {'name': '185.153.150.63107', 'server': '185.153.150.63', 'port': '40093', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'x23Z4LGkGDkThZ9Kaz4DURQp'}
-  - {'name': '89.187.163.210108', 'server': '89.187.163.210', 'port': '35294', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'J9Y2ncrdPEC38gwydNFFGBna'}
-  - {'name': '89.187.163.210109', 'server': '89.187.163.210', 'port': '31944', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'aYNeKDMzYQYw4KbUbJA8Wszq'}
-  - {'name': '89.187.162.186110', 'server': '89.187.162.186', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '89.187.163.210111', 'server': '89.187.163.210', 'port': '37473', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'enctdKyJfSu76VqznKwTt6Ap'}
-  - {'name': '91.206.168.19112', 'server': '91.206.168.19', 'port': '38742', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'DKXfWwc4ebscpXTKpbt85rSH'}
-  - {'name': '91.206.168.19113', 'server': '91.206.168.19', 'port': '31572', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'n8w4StnbVD9dmXYn4Ajt87EA'}
+  - {'name': 'l1-aws-kr-01.mugun.xyz1', 'type': 'vmess', 'server': 'l1-aws-kr-01.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-kr-02.mugun.xyz2', 'type': 'vmess', 'server': 'l1-aws-kr-02.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-kr-03.mugun.xyz3', 'type': 'vmess', 'server': 'l1-aws-kr-03.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-kr-04.mugun.xyz4', 'type': 'vmess', 'server': 'l1-aws-kr-04.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-kr-05.mugun.xyz5', 'type': 'vmess', 'server': 'l1-aws-kr-05.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-kr-06.mugun.xyz6', 'type': 'vmess', 'server': 'l1-aws-kr-06.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-kr-07.mugun.xyz7', 'type': 'vmess', 'server': 'l1-aws-kr-07.mugun.xyz', 'port': '443', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-kr-08.mugun.xyz8', 'type': 'vmess', 'server': 'l1-aws-kr-08.mugun.xyz', 'port': '443', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-jp-01.mugun.xyz9', 'type': 'vmess', 'server': 'l1-aws-jp-01.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-jp-02.mugun.xyz10', 'type': 'vmess', 'server': 'l1-aws-jp-02.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-jp-03.mugun.xyz11', 'type': 'vmess', 'server': 'l1-aws-jp-03.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-jp-04.mugun.xyz12', 'type': 'vmess', 'server': 'l1-aws-jp-04.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-jp-05.mugun.xyz13', 'type': 'vmess', 'server': 'l1-aws-jp-05.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-jp-06.mugun.xyz14', 'type': 'vmess', 'server': 'l1-aws-jp-06.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-jp-07.mugun.xyz15', 'type': 'vmess', 'server': 'l1-aws-jp-07.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-jp-08.mugun.xyz16', 'type': 'vmess', 'server': 'l1-aws-jp-08.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-sg-01.mugun.xyz17', 'type': 'vmess', 'server': 'l1-aws-sg-01.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-sg-02.mugun.xyz18', 'type': 'vmess', 'server': 'l1-aws-sg-02.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-sg-03.mugun.xyz19', 'type': 'vmess', 'server': 'l1-aws-sg-03.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-sg-05.mugun.xyz20', 'type': 'vmess', 'server': 'l1-aws-sg-05.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-sg-06.mugun.xyz21', 'type': 'vmess', 'server': 'l1-aws-sg-06.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-sg-07.mugun.xyz22', 'type': 'vmess', 'server': 'l1-aws-sg-07.mugun.xyz', 'port': '443', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l1-aws-sg-08.mugun.xyz23', 'type': 'vmess', 'server': 'l1-aws-sg-08.mugun.xyz', 'port': '443', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
+  - {'name': 'l2-ntt-us-01.mugun.xyz24', 'type': 'vmess', 'server': 'l2-ntt-us-01.mugun.xyz', 'port': '443', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': 'mugua'}
+  - {'name': 'l2-ntt-us-02.mugun.xyz25', 'type': 'vmess', 'server': 'l2-ntt-us-02.mugun.xyz', 'port': '443', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': 'mugua'}
+  - {'name': 'l2-ntt-us-03.mugun.xyz26', 'type': 'vmess', 'server': 'l2-ntt-us-03.mugun.xyz', 'port': '443', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': 'mugua'}
+  - {'name': 'l2-ntt-us-04.mugun.xyz27', 'type': 'vmess', 'server': 'l2-ntt-us-04.mugun.xyz', 'port': '443', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': 'mugua'}
+  - {'name': 'global-canton-jp-a-01.mugun.xyz28', 'type': 'vmess', 'server': 'global-canton-jp-a-01.mugun.xyz', 'port': '2006', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': 'global-canton-jp-01.mugun.xyz29', 'type': 'vmess', 'server': 'global-canton-jp-01.mugun.xyz', 'port': '2002', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': 'global-canton-jp-01.mugun.xyz30', 'type': 'vmess', 'server': 'global-canton-jp-01.mugun.xyz', 'port': '2004', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': 'global-canton-jp-a-01.mugun.xyz31', 'type': 'vmess', 'server': 'global-canton-jp-a-01.mugun.xyz', 'port': '126', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': 'global-canton-tw-a-01.mugun.xyz32', 'type': 'vmess', 'server': 'global-canton-tw-a-01.mugun.xyz', 'port': '300', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': 'global-canton-tw-a-01.mugun.xyz33', 'type': 'vmess', 'server': 'global-canton-tw-a-01.mugun.xyz', 'port': '301', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': 'global-canton-tw-a-01.mugun.xyz34', 'type': 'vmess', 'server': 'global-canton-tw-a-01.mugun.xyz', 'port': '302', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': 'global-canton-tw-a-01.mugun.xyz35', 'type': 'vmess', 'server': 'global-canton-tw-a-01.mugun.xyz', 'port': '60004', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': 'global-canton-hk-a-01.mugun.xyz36', 'type': 'vmess', 'server': 'global-canton-hk-a-01.mugun.xyz', 'port': '2007', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': 'global-canton-hk-a-01.mugun.xyz37', 'type': 'vmess', 'server': 'global-canton-hk-a-01.mugun.xyz', 'port': '60010', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': 'global-canton-sg-01.mugun.xyz38', 'type': 'vmess', 'server': 'global-canton-sg-01.mugun.xyz', 'port': '60020', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': 'ru01.kelecloud.xyz39', 'type': 'vmess', 'server': 'ru01.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': '194.87.215.5740', 'type': 'vmess', 'server': '194.87.215.57', 'port': '17219', 'uuid': 'b3c1db3d-44df-42ca-8781-10eb527a8417', 'alterId': '0', 'cipher': 'none'}
+  - {'name': '52.80.57.14541', 'type': 'vmess', 'server': '52.80.57.145', 'port': '10006', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'us01.kelecloud.xyz42', 'type': 'vmess', 'server': 'us01.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': '52.80.57.14543', 'type': 'vmess', 'server': '52.80.57.145', 'port': '10007', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': '美国GIA44', 'server': 'gia.noten.cyou', 'port': '443?sni=gia.noten.cyou', 'type': 'trojan', 'password': 'f924f95d-9356-4ed8-8177-cbbe397bc34c', 'sni': 'gia.noten.cyou'}
+  - {'name': '52.80.57.14545', 'type': 'vmess', 'server': '52.80.57.145', 'port': '10000', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'jp01.kelecloud.xyz46', 'type': 'vmess', 'server': 'jp01.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'jp02.kelecloud.xyz47', 'type': 'vmess', 'server': 'jp02.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'jp03.kelecloud.xyz48', 'type': 'vmess', 'server': 'jp03.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'a050511e06f3c8a24.awsglobalaccelerator.com49', 'type': 'vmess', 'server': 'a050511e06f3c8a24.awsglobalaccelerator.com', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'cncn.blackhole02.site50', 'type': 'vmess', 'server': 'cncn.blackhole02.site', 'port': '3333', 'uuid': '77cd72fe-040e-4812-88f9-74ab4e809ac0', 'alterId': '3', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'cncn.blackhole02.site51', 'type': 'vmess', 'server': 'cncn.blackhole02.site', 'port': '3334', 'uuid': '77cd72fe-040e-4812-88f9-74ab4e809ac0', 'alterId': '3', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'gzcm2.3sx.xyz52', 'type': 'vmess', 'server': 'gzcm2.3sx.xyz', 'port': '10016', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'tw01.kelecloud.xyz53', 'type': 'vmess', 'server': 'tw01.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': '183.gczm.blackhole02.site54', 'type': 'vmess', 'server': '183.gczm.blackhole02.site', 'port': '10090', 'uuid': '77cd72fe-040e-4812-88f9-74ab4e809ac0', 'alterId': '3', 'cipher': 'none', 'network': 'ws', 'ws-path': '/hls/cctv5phd.m3u8'}
+  - {'name': '52.80.57.14555', 'type': 'vmess', 'server': '52.80.57.145', 'port': '10004', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'gzcm2.3sx.xyz56', 'type': 'vmess', 'server': 'gzcm2.3sx.xyz', 'port': '10002', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': '183.236.57.12857', 'type': 'vmess', 'server': '183.236.57.128', 'port': '10029', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'hk02.kelecloud.xyz58', 'type': 'vmess', 'server': 'hk02.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': '52.80.57.14559', 'type': 'vmess', 'server': '52.80.57.145', 'port': '10005', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'gzcm2.3sx.xyz60', 'type': 'vmess', 'server': 'gzcm2.3sx.xyz', 'port': '10003', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': '183.236.57.12861', 'type': 'vmess', 'server': '183.236.57.128', 'port': '10030', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'hk03.kelecloud.xyz62', 'type': 'vmess', 'server': 'hk03.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'gzcm2.3sx.xyz63', 'type': 'vmess', 'server': 'gzcm2.3sx.xyz', 'port': '10004', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'hk04.kelecloud.xyz64', 'type': 'vmess', 'server': 'hk04.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'gzcm2.3sx.xyz65', 'type': 'vmess', 'server': 'gzcm2.3sx.xyz', 'port': '10029', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': '18.162.52.13166', 'type': 'vmess', 'server': '18.162.52.131', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': '52.80.57.14567', 'type': 'vmess', 'server': '52.80.57.145', 'port': '10003', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'hk01.kelecloud.xyz68', 'type': 'vmess', 'server': 'hk01.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'gzcm2.3sx.xyz69', 'type': 'vmess', 'server': 'gzcm2.3sx.xyz', 'port': '10001', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': 'a5009ddcec736d4bf.awsglobalaccelerator.com70', 'type': 'vmess', 'server': 'a5009ddcec736d4bf.awsglobalaccelerator.com', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
+  - {'name': '207.244.84.4071', 'server': '207.244.84.40', 'port': '33998', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'NHwQTPLCfaTMSqTnU3mjcSxe'}
+  - {'name': '89.45.7.5172', 'server': '89.45.7.51', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
+  - {'name': '89.46.223.23973', 'server': '89.46.223.239', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
+  - {'name': '104.200.131.24574', 'server': '104.200.131.245', 'port': '31944', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'aYNeKDMzYQYw4KbUbJA8Wszq'}
 
 proxy-groups:
 
@@ -157,230 +121,158 @@ proxy-groups:
 - name: 🖱️select
   type: select
   proxies:
-    - "104.18.7.1381"
-    - "ShareCentre+United+States,2"
-    - "89.187.163.2123"
-    - "185.2.100.1664"
-    - "107.181.166.555"
-    - "185.44.76.1646"
-    - "156.146.33.797"
-    - "156.146.33.838"
-    - "212.102.35.2169"
-    - "2.58.46.510"
-    - "2.58.46.311"
-    - "virmachzhi.l5420.ml_trojan_ws13"
-    - "104.19.23.2314"
-    - "172.67.54.616"
-    - "104.21.36.10317"
-    - "woaini.mrx520.ml19"
-    - "194.87.215.5720"
-    - "104.19.23.2321"
-    - "172.67.54.622"
-    - "104.21.36.10323"
-    - "hk01.indihome.tk24"
-    - "bgp4.gemgems.net25"
-    - "37.120.194.9126"
-    - "37.120.194.10927"
-    - "193.29.107.11728"
-    - "89.45.7.5129"
-    - "37.120.194.9130"
-    - "193.29.107.12531"
-    - "193.29.107.9132"
-    - "178.238.231.5333"
-    - "178.238.231.5334"
-    - "193.29.106.535"
-    - "185.141.206.17036"
-    - "185.134.23.4037"
-    - "185.141.206.18638"
-    - "185.102.217.16139"
-    - "185.102.217.15940"
-    - "185.102.217.15941"
-    - "185.102.217.15942"
-    - "143.244.57.9143"
-    - "143.244.57.9144"
-    - "143.244.57.9145"
-    - "143.244.57.9146"
-    - "143.244.57.9147"
-    - "143.244.57.9148"
-    - "143.244.57.9149"
-    - "89.46.223.23950"
-    - "212.102.35.20651"
-    - "89.187.168.4152"
-    - "104.148.30.8553"
-    - "104.200.131.24554"
-    - "143.244.42.6655"
-    - "143.244.57.9156"
-    - "143.244.60.16257"
-    - "143.244.60.16458"
-    - "143.244.60.17259"
-    - "143.244.60.17460"
-    - "154.16.171.21361"
-    - "154.16.171.21562"
-    - "154.16.171.21563"
-    - "154.16.171.21564"
-    - "154.16.171.21565"
-    - "154.16.171.21566"
-    - "173.237.207.3067"
-    - "149.248.62.8268"
-    - "fukyo.ssff666.workers.dev69"
-    - "199.10.64.13370"
-    - "185.124.240.14571"
-    - "66.115.175.4072"
-    - "207.244.84.4073"
-    - "207.244.127.11874"
-    - "79.110.54.13175"
-    - "45.89.173.20576"
-    - "198.147.22.8777"
-    - "66.115.175.4078"
-    - "185.124.240.16979"
-    - "89.187.187.7680"
-    - "66.115.175.4081"
-    - "192.40.59.22982"
-    - "66.115.175.4083"
-    - "79.110.54.11584"
-    - "209.216.92.585"
-    - "207.244.127.11886"
-    - "89.187.187.7687"
-    - "66.115.182.6988"
-    - "207.244.84.5889"
-    - "209.216.92.390"
-    - "198.147.22.8791"
-    - "185.124.240.15392"
-    - "207.244.127.11893"
-    - "207.244.84.4094"
-    - "209.216.92.395"
-    - "198.147.22.8796"
-    - "185.124.240.15997"
-    - "74.119.146.13198"
-    - "188.92.78.14599"
-    - "188.92.78.152100"
-    - "188.92.78.145101"
-    - "37.120.221.5102"
-    - "37.120.221.5103"
-    - "87.239.254.20104"
-    - "185.188.61.35105"
-    - "185.188.61.35106"
-    - "185.153.150.63107"
-    - "89.187.163.210108"
-    - "89.187.163.210109"
-    - "89.187.162.186110"
-    - "89.187.163.210111"
-    - "91.206.168.19112"
-    - "91.206.168.19113"
+    - "l1-aws-kr-01.mugun.xyz1"
+    - "l1-aws-kr-02.mugun.xyz2"
+    - "l1-aws-kr-03.mugun.xyz3"
+    - "l1-aws-kr-04.mugun.xyz4"
+    - "l1-aws-kr-05.mugun.xyz5"
+    - "l1-aws-kr-06.mugun.xyz6"
+    - "l1-aws-kr-07.mugun.xyz7"
+    - "l1-aws-kr-08.mugun.xyz8"
+    - "l1-aws-jp-01.mugun.xyz9"
+    - "l1-aws-jp-02.mugun.xyz10"
+    - "l1-aws-jp-03.mugun.xyz11"
+    - "l1-aws-jp-04.mugun.xyz12"
+    - "l1-aws-jp-05.mugun.xyz13"
+    - "l1-aws-jp-06.mugun.xyz14"
+    - "l1-aws-jp-07.mugun.xyz15"
+    - "l1-aws-jp-08.mugun.xyz16"
+    - "l1-aws-sg-01.mugun.xyz17"
+    - "l1-aws-sg-02.mugun.xyz18"
+    - "l1-aws-sg-03.mugun.xyz19"
+    - "l1-aws-sg-05.mugun.xyz20"
+    - "l1-aws-sg-06.mugun.xyz21"
+    - "l1-aws-sg-07.mugun.xyz22"
+    - "l1-aws-sg-08.mugun.xyz23"
+    - "l2-ntt-us-01.mugun.xyz24"
+    - "l2-ntt-us-02.mugun.xyz25"
+    - "l2-ntt-us-03.mugun.xyz26"
+    - "l2-ntt-us-04.mugun.xyz27"
+    - "global-canton-jp-a-01.mugun.xyz28"
+    - "global-canton-jp-01.mugun.xyz29"
+    - "global-canton-jp-01.mugun.xyz30"
+    - "global-canton-jp-a-01.mugun.xyz31"
+    - "global-canton-tw-a-01.mugun.xyz32"
+    - "global-canton-tw-a-01.mugun.xyz33"
+    - "global-canton-tw-a-01.mugun.xyz34"
+    - "global-canton-tw-a-01.mugun.xyz35"
+    - "global-canton-hk-a-01.mugun.xyz36"
+    - "global-canton-hk-a-01.mugun.xyz37"
+    - "global-canton-sg-01.mugun.xyz38"
+    - "ru01.kelecloud.xyz39"
+    - "194.87.215.5740"
+    - "52.80.57.14541"
+    - "us01.kelecloud.xyz42"
+    - "52.80.57.14543"
+    - "美国GIA44"
+    - "52.80.57.14545"
+    - "jp01.kelecloud.xyz46"
+    - "jp02.kelecloud.xyz47"
+    - "jp03.kelecloud.xyz48"
+    - "a050511e06f3c8a24.awsglobalaccelerator.com49"
+    - "cncn.blackhole02.site50"
+    - "cncn.blackhole02.site51"
+    - "gzcm2.3sx.xyz52"
+    - "tw01.kelecloud.xyz53"
+    - "183.gczm.blackhole02.site54"
+    - "52.80.57.14555"
+    - "gzcm2.3sx.xyz56"
+    - "183.236.57.12857"
+    - "hk02.kelecloud.xyz58"
+    - "52.80.57.14559"
+    - "gzcm2.3sx.xyz60"
+    - "183.236.57.12861"
+    - "hk03.kelecloud.xyz62"
+    - "gzcm2.3sx.xyz63"
+    - "hk04.kelecloud.xyz64"
+    - "gzcm2.3sx.xyz65"
+    - "18.162.52.13166"
+    - "52.80.57.14567"
+    - "hk01.kelecloud.xyz68"
+    - "gzcm2.3sx.xyz69"
+    - "a5009ddcec736d4bf.awsglobalaccelerator.com70"
+    - "207.244.84.4071"
+    - "89.45.7.5172"
+    - "89.46.223.23973"
+    - "104.200.131.24574"
 # > 💻auto_select
 - name: 💻auto_select
   type: url-test
   proxies:
-    - "104.18.7.1381"
-    - "ShareCentre+United+States,2"
-    - "89.187.163.2123"
-    - "185.2.100.1664"
-    - "107.181.166.555"
-    - "185.44.76.1646"
-    - "156.146.33.797"
-    - "156.146.33.838"
-    - "212.102.35.2169"
-    - "2.58.46.510"
-    - "2.58.46.311"
-    - "virmachzhi.l5420.ml_trojan_ws13"
-    - "104.19.23.2314"
-    - "172.67.54.616"
-    - "104.21.36.10317"
-    - "woaini.mrx520.ml19"
-    - "194.87.215.5720"
-    - "104.19.23.2321"
-    - "172.67.54.622"
-    - "104.21.36.10323"
-    - "hk01.indihome.tk24"
-    - "bgp4.gemgems.net25"
-    - "37.120.194.9126"
-    - "37.120.194.10927"
-    - "193.29.107.11728"
-    - "89.45.7.5129"
-    - "37.120.194.9130"
-    - "193.29.107.12531"
-    - "193.29.107.9132"
-    - "178.238.231.5333"
-    - "178.238.231.5334"
-    - "193.29.106.535"
-    - "185.141.206.17036"
-    - "185.134.23.4037"
-    - "185.141.206.18638"
-    - "185.102.217.16139"
-    - "185.102.217.15940"
-    - "185.102.217.15941"
-    - "185.102.217.15942"
-    - "143.244.57.9143"
-    - "143.244.57.9144"
-    - "143.244.57.9145"
-    - "143.244.57.9146"
-    - "143.244.57.9147"
-    - "143.244.57.9148"
-    - "143.244.57.9149"
-    - "89.46.223.23950"
-    - "212.102.35.20651"
-    - "89.187.168.4152"
-    - "104.148.30.8553"
-    - "104.200.131.24554"
-    - "143.244.42.6655"
-    - "143.244.57.9156"
-    - "143.244.60.16257"
-    - "143.244.60.16458"
-    - "143.244.60.17259"
-    - "143.244.60.17460"
-    - "154.16.171.21361"
-    - "154.16.171.21562"
-    - "154.16.171.21563"
-    - "154.16.171.21564"
-    - "154.16.171.21565"
-    - "154.16.171.21566"
-    - "173.237.207.3067"
-    - "149.248.62.8268"
-    - "fukyo.ssff666.workers.dev69"
-    - "199.10.64.13370"
-    - "185.124.240.14571"
-    - "66.115.175.4072"
-    - "207.244.84.4073"
-    - "207.244.127.11874"
-    - "79.110.54.13175"
-    - "45.89.173.20576"
-    - "198.147.22.8777"
-    - "66.115.175.4078"
-    - "185.124.240.16979"
-    - "89.187.187.7680"
-    - "66.115.175.4081"
-    - "192.40.59.22982"
-    - "66.115.175.4083"
-    - "79.110.54.11584"
-    - "209.216.92.585"
-    - "207.244.127.11886"
-    - "89.187.187.7687"
-    - "66.115.182.6988"
-    - "207.244.84.5889"
-    - "209.216.92.390"
-    - "198.147.22.8791"
-    - "185.124.240.15392"
-    - "207.244.127.11893"
-    - "207.244.84.4094"
-    - "209.216.92.395"
-    - "198.147.22.8796"
-    - "185.124.240.15997"
-    - "74.119.146.13198"
-    - "188.92.78.14599"
-    - "188.92.78.152100"
-    - "188.92.78.145101"
-    - "37.120.221.5102"
-    - "37.120.221.5103"
-    - "87.239.254.20104"
-    - "185.188.61.35105"
-    - "185.188.61.35106"
-    - "185.153.150.63107"
-    - "89.187.163.210108"
-    - "89.187.163.210109"
-    - "89.187.162.186110"
-    - "89.187.163.210111"
-    - "91.206.168.19112"
-    - "91.206.168.19113"
+    - "l1-aws-kr-01.mugun.xyz1"
+    - "l1-aws-kr-02.mugun.xyz2"
+    - "l1-aws-kr-03.mugun.xyz3"
+    - "l1-aws-kr-04.mugun.xyz4"
+    - "l1-aws-kr-05.mugun.xyz5"
+    - "l1-aws-kr-06.mugun.xyz6"
+    - "l1-aws-kr-07.mugun.xyz7"
+    - "l1-aws-kr-08.mugun.xyz8"
+    - "l1-aws-jp-01.mugun.xyz9"
+    - "l1-aws-jp-02.mugun.xyz10"
+    - "l1-aws-jp-03.mugun.xyz11"
+    - "l1-aws-jp-04.mugun.xyz12"
+    - "l1-aws-jp-05.mugun.xyz13"
+    - "l1-aws-jp-06.mugun.xyz14"
+    - "l1-aws-jp-07.mugun.xyz15"
+    - "l1-aws-jp-08.mugun.xyz16"
+    - "l1-aws-sg-01.mugun.xyz17"
+    - "l1-aws-sg-02.mugun.xyz18"
+    - "l1-aws-sg-03.mugun.xyz19"
+    - "l1-aws-sg-05.mugun.xyz20"
+    - "l1-aws-sg-06.mugun.xyz21"
+    - "l1-aws-sg-07.mugun.xyz22"
+    - "l1-aws-sg-08.mugun.xyz23"
+    - "l2-ntt-us-01.mugun.xyz24"
+    - "l2-ntt-us-02.mugun.xyz25"
+    - "l2-ntt-us-03.mugun.xyz26"
+    - "l2-ntt-us-04.mugun.xyz27"
+    - "global-canton-jp-a-01.mugun.xyz28"
+    - "global-canton-jp-01.mugun.xyz29"
+    - "global-canton-jp-01.mugun.xyz30"
+    - "global-canton-jp-a-01.mugun.xyz31"
+    - "global-canton-tw-a-01.mugun.xyz32"
+    - "global-canton-tw-a-01.mugun.xyz33"
+    - "global-canton-tw-a-01.mugun.xyz34"
+    - "global-canton-tw-a-01.mugun.xyz35"
+    - "global-canton-hk-a-01.mugun.xyz36"
+    - "global-canton-hk-a-01.mugun.xyz37"
+    - "global-canton-sg-01.mugun.xyz38"
+    - "ru01.kelecloud.xyz39"
+    - "194.87.215.5740"
+    - "52.80.57.14541"
+    - "us01.kelecloud.xyz42"
+    - "52.80.57.14543"
+    - "美国GIA44"
+    - "52.80.57.14545"
+    - "jp01.kelecloud.xyz46"
+    - "jp02.kelecloud.xyz47"
+    - "jp03.kelecloud.xyz48"
+    - "a050511e06f3c8a24.awsglobalaccelerator.com49"
+    - "cncn.blackhole02.site50"
+    - "cncn.blackhole02.site51"
+    - "gzcm2.3sx.xyz52"
+    - "tw01.kelecloud.xyz53"
+    - "183.gczm.blackhole02.site54"
+    - "52.80.57.14555"
+    - "gzcm2.3sx.xyz56"
+    - "183.236.57.12857"
+    - "hk02.kelecloud.xyz58"
+    - "52.80.57.14559"
+    - "gzcm2.3sx.xyz60"
+    - "183.236.57.12861"
+    - "hk03.kelecloud.xyz62"
+    - "gzcm2.3sx.xyz63"
+    - "hk04.kelecloud.xyz64"
+    - "gzcm2.3sx.xyz65"
+    - "18.162.52.13166"
+    - "52.80.57.14567"
+    - "hk01.kelecloud.xyz68"
+    - "gzcm2.3sx.xyz69"
+    - "a5009ddcec736d4bf.awsglobalaccelerator.com70"
+    - "207.244.84.4071"
+    - "89.45.7.5172"
+    - "89.46.223.23973"
+    - "104.200.131.24574"
   url: 'http://www.gstatic.com/generate_204'
   interval: 600
 # > 📺BiliBili
