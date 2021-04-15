@@ -74,7 +74,7 @@ proxies:
   - {'name': '52.80.57.14541', 'type': 'vmess', 'server': '52.80.57.145', 'port': '10006', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
   - {'name': 'us01.kelecloud.xyz42', 'type': 'vmess', 'server': 'us01.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
   - {'name': '52.80.57.14543', 'type': 'vmess', 'server': '52.80.57.145', 'port': '10007', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': '美国GIA44', 'server': 'gia.noten.cyou', 'port': '443?sni=gia.noten.cyou', 'type': 'trojan', 'password': 'f924f95d-9356-4ed8-8177-cbbe397bc34c', 'sni': 'gia.noten.cyou'}
+  - {'name': '美国GIA44', 'server': 'gia.noten.cyou', 'port': '443', 'type': 'trojan', 'password': 'f924f95d-9356-4ed8-8177-cbbe397bc34c', 'sni': 'gia.noten.cyou'}
   - {'name': '52.80.57.14545', 'type': 'vmess', 'server': '52.80.57.145', 'port': '10000', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
   - {'name': 'jp01.kelecloud.xyz46', 'type': 'vmess', 'server': 'jp01.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
   - {'name': 'jp02.kelecloud.xyz47', 'type': 'vmess', 'server': 'jp02.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
