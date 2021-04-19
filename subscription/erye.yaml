@@ -1,4 +1,4 @@
-# -> time: 21-04-18: 19-56-02:04
+# -> time: 21-04-19: 19-56-02:04
 
 
 #http 和socks5 端口
@@ -34,80 +34,55 @@ tun:
   macOS-auto-detect-interface: true # 自动检测出口网卡
 #在此导入所有节点
 proxies:
-  - {'name': 'l1-aws-kr-01.mugun.xyz1', 'type': 'vmess', 'server': 'l1-aws-kr-01.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-kr-02.mugun.xyz2', 'type': 'vmess', 'server': 'l1-aws-kr-02.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-kr-03.mugun.xyz3', 'type': 'vmess', 'server': 'l1-aws-kr-03.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-kr-04.mugun.xyz4', 'type': 'vmess', 'server': 'l1-aws-kr-04.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-kr-05.mugun.xyz5', 'type': 'vmess', 'server': 'l1-aws-kr-05.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-kr-06.mugun.xyz6', 'type': 'vmess', 'server': 'l1-aws-kr-06.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-kr-07.mugun.xyz7', 'type': 'vmess', 'server': 'l1-aws-kr-07.mugun.xyz', 'port': '443', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-kr-08.mugun.xyz8', 'type': 'vmess', 'server': 'l1-aws-kr-08.mugun.xyz', 'port': '443', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-jp-01.mugun.xyz9', 'type': 'vmess', 'server': 'l1-aws-jp-01.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-jp-02.mugun.xyz10', 'type': 'vmess', 'server': 'l1-aws-jp-02.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-jp-03.mugun.xyz11', 'type': 'vmess', 'server': 'l1-aws-jp-03.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-jp-04.mugun.xyz12', 'type': 'vmess', 'server': 'l1-aws-jp-04.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-jp-05.mugun.xyz13', 'type': 'vmess', 'server': 'l1-aws-jp-05.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-jp-06.mugun.xyz14', 'type': 'vmess', 'server': 'l1-aws-jp-06.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-jp-07.mugun.xyz15', 'type': 'vmess', 'server': 'l1-aws-jp-07.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-jp-08.mugun.xyz16', 'type': 'vmess', 'server': 'l1-aws-jp-08.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-sg-01.mugun.xyz17', 'type': 'vmess', 'server': 'l1-aws-sg-01.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-sg-02.mugun.xyz18', 'type': 'vmess', 'server': 'l1-aws-sg-02.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-sg-03.mugun.xyz19', 'type': 'vmess', 'server': 'l1-aws-sg-03.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-sg-05.mugun.xyz20', 'type': 'vmess', 'server': 'l1-aws-sg-05.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-sg-06.mugun.xyz21', 'type': 'vmess', 'server': 'l1-aws-sg-06.mugun.xyz', 'port': '80', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-sg-07.mugun.xyz22', 'type': 'vmess', 'server': 'l1-aws-sg-07.mugun.xyz', 'port': '443', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l1-aws-sg-08.mugun.xyz23', 'type': 'vmess', 'server': 'l1-aws-sg-08.mugun.xyz', 'port': '443', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/mugua'}
-  - {'name': 'l2-ntt-us-01.mugun.xyz24', 'type': 'vmess', 'server': 'l2-ntt-us-01.mugun.xyz', 'port': '443', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': 'mugua'}
-  - {'name': 'l2-ntt-us-02.mugun.xyz25', 'type': 'vmess', 'server': 'l2-ntt-us-02.mugun.xyz', 'port': '443', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': 'mugua'}
-  - {'name': 'l2-ntt-us-03.mugun.xyz26', 'type': 'vmess', 'server': 'l2-ntt-us-03.mugun.xyz', 'port': '443', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': 'mugua'}
-  - {'name': 'l2-ntt-us-04.mugun.xyz27', 'type': 'vmess', 'server': 'l2-ntt-us-04.mugun.xyz', 'port': '443', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': 'mugua'}
-  - {'name': 'global-canton-jp-a-01.mugun.xyz28', 'type': 'vmess', 'server': 'global-canton-jp-a-01.mugun.xyz', 'port': '2006', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': 'global-canton-jp-01.mugun.xyz29', 'type': 'vmess', 'server': 'global-canton-jp-01.mugun.xyz', 'port': '2002', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': 'global-canton-jp-01.mugun.xyz30', 'type': 'vmess', 'server': 'global-canton-jp-01.mugun.xyz', 'port': '2004', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': 'global-canton-jp-a-01.mugun.xyz31', 'type': 'vmess', 'server': 'global-canton-jp-a-01.mugun.xyz', 'port': '126', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': 'global-canton-tw-a-01.mugun.xyz32', 'type': 'vmess', 'server': 'global-canton-tw-a-01.mugun.xyz', 'port': '300', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': 'global-canton-tw-a-01.mugun.xyz33', 'type': 'vmess', 'server': 'global-canton-tw-a-01.mugun.xyz', 'port': '301', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': 'global-canton-tw-a-01.mugun.xyz34', 'type': 'vmess', 'server': 'global-canton-tw-a-01.mugun.xyz', 'port': '302', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': 'global-canton-tw-a-01.mugun.xyz35', 'type': 'vmess', 'server': 'global-canton-tw-a-01.mugun.xyz', 'port': '60004', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': 'global-canton-hk-a-01.mugun.xyz36', 'type': 'vmess', 'server': 'global-canton-hk-a-01.mugun.xyz', 'port': '2007', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': 'global-canton-hk-a-01.mugun.xyz37', 'type': 'vmess', 'server': 'global-canton-hk-a-01.mugun.xyz', 'port': '60010', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': 'global-canton-sg-01.mugun.xyz38', 'type': 'vmess', 'server': 'global-canton-sg-01.mugun.xyz', 'port': '60020', 'uuid': 'fc345b49-b6bf-3268-8be9-bfce6da92543', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': 'ru01.kelecloud.xyz39', 'type': 'vmess', 'server': 'ru01.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': '194.87.215.5740', 'type': 'vmess', 'server': '194.87.215.57', 'port': '17219', 'uuid': 'b3c1db3d-44df-42ca-8781-10eb527a8417', 'alterId': '0', 'cipher': 'none'}
-  - {'name': '52.80.57.14541', 'type': 'vmess', 'server': '52.80.57.145', 'port': '10006', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'us01.kelecloud.xyz42', 'type': 'vmess', 'server': 'us01.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': '52.80.57.14543', 'type': 'vmess', 'server': '52.80.57.145', 'port': '10007', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': '美国GIA44', 'server': 'gia.noten.cyou', 'port': '443', 'type': 'trojan', 'password': 'f924f95d-9356-4ed8-8177-cbbe397bc34c', 'sni': 'gia.noten.cyou'}
-  - {'name': '52.80.57.14545', 'type': 'vmess', 'server': '52.80.57.145', 'port': '10000', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'jp01.kelecloud.xyz46', 'type': 'vmess', 'server': 'jp01.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'jp02.kelecloud.xyz47', 'type': 'vmess', 'server': 'jp02.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'jp03.kelecloud.xyz48', 'type': 'vmess', 'server': 'jp03.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'a050511e06f3c8a24.awsglobalaccelerator.com49', 'type': 'vmess', 'server': 'a050511e06f3c8a24.awsglobalaccelerator.com', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'cncn.blackhole02.site50', 'type': 'vmess', 'server': 'cncn.blackhole02.site', 'port': '3333', 'uuid': '77cd72fe-040e-4812-88f9-74ab4e809ac0', 'alterId': '3', 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'cncn.blackhole02.site51', 'type': 'vmess', 'server': 'cncn.blackhole02.site', 'port': '3334', 'uuid': '77cd72fe-040e-4812-88f9-74ab4e809ac0', 'alterId': '3', 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'gzcm2.3sx.xyz52', 'type': 'vmess', 'server': 'gzcm2.3sx.xyz', 'port': '10016', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'tw01.kelecloud.xyz53', 'type': 'vmess', 'server': 'tw01.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': '183.gczm.blackhole02.site54', 'type': 'vmess', 'server': '183.gczm.blackhole02.site', 'port': '10090', 'uuid': '77cd72fe-040e-4812-88f9-74ab4e809ac0', 'alterId': '3', 'cipher': 'none', 'network': 'ws', 'ws-path': '/hls/cctv5phd.m3u8'}
-  - {'name': '52.80.57.14555', 'type': 'vmess', 'server': '52.80.57.145', 'port': '10004', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'gzcm2.3sx.xyz56', 'type': 'vmess', 'server': 'gzcm2.3sx.xyz', 'port': '10002', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': '183.236.57.12857', 'type': 'vmess', 'server': '183.236.57.128', 'port': '10029', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'hk02.kelecloud.xyz58', 'type': 'vmess', 'server': 'hk02.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': '52.80.57.14559', 'type': 'vmess', 'server': '52.80.57.145', 'port': '10005', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'gzcm2.3sx.xyz60', 'type': 'vmess', 'server': 'gzcm2.3sx.xyz', 'port': '10003', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': '183.236.57.12861', 'type': 'vmess', 'server': '183.236.57.128', 'port': '10030', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'hk03.kelecloud.xyz62', 'type': 'vmess', 'server': 'hk03.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'gzcm2.3sx.xyz63', 'type': 'vmess', 'server': 'gzcm2.3sx.xyz', 'port': '10004', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'hk04.kelecloud.xyz64', 'type': 'vmess', 'server': 'hk04.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'gzcm2.3sx.xyz65', 'type': 'vmess', 'server': 'gzcm2.3sx.xyz', 'port': '10029', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': '18.162.52.13166', 'type': 'vmess', 'server': '18.162.52.131', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': '52.80.57.14567', 'type': 'vmess', 'server': '52.80.57.145', 'port': '10003', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'hk01.kelecloud.xyz68', 'type': 'vmess', 'server': 'hk01.kelecloud.xyz', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'gzcm2.3sx.xyz69', 'type': 'vmess', 'server': 'gzcm2.3sx.xyz', 'port': '10001', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': 'a5009ddcec736d4bf.awsglobalaccelerator.com70', 'type': 'vmess', 'server': 'a5009ddcec736d4bf.awsglobalaccelerator.com', 'port': '20086', 'uuid': '2fc91cec-e40b-469a-aeca-582f3456dca0', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/Pinmk4Nk'}
-  - {'name': '207.244.84.4071', 'server': '207.244.84.40', 'port': '33998', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'NHwQTPLCfaTMSqTnU3mjcSxe'}
-  - {'name': '89.45.7.5172', 'server': '89.45.7.51', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '89.46.223.23973', 'server': '89.46.223.239', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '104.200.131.24574', 'server': '104.200.131.245', 'port': '31944', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'aYNeKDMzYQYw4KbUbJA8Wszq'}
+  - {'name': '89.46.223.2391', 'server': '89.46.223.239', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
+  - {'name': '101.69.128.842', 'type': 'vmess', 'server': '101.69.128.84', 'port': '27002', 'uuid': '4706e877-c2bb-4490-b37d-cd1468109e15', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
+  - {'name': '101.69.128.843', 'type': 'vmess', 'server': '101.69.128.84', 'port': '27009', 'uuid': '4706e877-c2bb-4490-b37d-cd1468109e15', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'nat.gz.kola.ga4', 'type': 'vmess', 'server': 'nat.gz.kola.ga', 'port': '25137', 'uuid': '4706e877-c2bb-4490-b37d-cd1468109e15', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
+  - {'name': '13.208.190.1525', 'type': 'vmess', 'server': '13.208.190.152', 'port': '666', 'uuid': '4706e877-c2bb-4490-b37d-cd1468109e15', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'nat.gz.kola.ga6', 'type': 'vmess', 'server': 'nat.gz.kola.ga', 'port': '25138', 'uuid': '4706e877-c2bb-4490-b37d-cd1468109e15', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
+  - {'name': '202.81.235.747', 'type': 'vmess', 'server': '202.81.235.74', 'port': '80', 'uuid': '722ec9b4-7449-40a4-8979-17a444561017', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
+  - {'name': '202.81.235.768', 'type': 'vmess', 'server': '202.81.235.76', 'port': '80', 'uuid': '722ec9b4-7449-40a4-8979-17a444561017', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
+  - {'name': '202.81.235.819', 'type': 'vmess', 'server': '202.81.235.81', 'port': '80', 'uuid': '722ec9b4-7449-40a4-8979-17a444561017', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
+  - {'name': '202.81.235.8010', 'type': 'vmess', 'server': '202.81.235.80', 'port': '80', 'uuid': '722ec9b4-7449-40a4-8979-17a444561017', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
+  - {'name': '202.81.235.7911', 'type': 'vmess', 'server': '202.81.235.79', 'port': '80', 'uuid': '722ec9b4-7449-40a4-8979-17a444561017', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
+  - {'name': '202.81.235.8412', 'type': 'vmess', 'server': '202.81.235.84', 'port': '80', 'uuid': '722ec9b4-7449-40a4-8979-17a444561017', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'gz.mgnb.cf13', 'type': 'vmess', 'server': 'gz.mgnb.cf', 'port': '40000', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'gz.mgnb.cf14', 'type': 'vmess', 'server': 'gz.mgnb.cf', 'port': '40001', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hn.mgnb.cf15', 'type': 'vmess', 'server': 'hn.mgnb.cf', 'port': '40000', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hn.mgnb.cf16', 'type': 'vmess', 'server': 'hn.mgnb.cf', 'port': '40001', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'jm.mfjlb.top17', 'type': 'vmess', 'server': 'jm.mfjlb.top', 'port': '20037', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'jm.mfjlb.top18', 'type': 'vmess', 'server': 'jm.mfjlb.top', 'port': '20040', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hz.mfjlb.top19', 'type': 'vmess', 'server': 'hz.mfjlb.top', 'port': '20006', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hz.mfjlb.top20', 'type': 'vmess', 'server': 'hz.mfjlb.top', 'port': '20015', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'gz.mgnb.cf21', 'type': 'vmess', 'server': 'gz.mgnb.cf', 'port': '40002', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'gz.mgnb.cf22', 'type': 'vmess', 'server': 'gz.mgnb.cf', 'port': '40003', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hn.mgnb.cf23', 'type': 'vmess', 'server': 'hn.mgnb.cf', 'port': '40002', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hn.mgnb.cf24', 'type': 'vmess', 'server': 'hn.mgnb.cf', 'port': '40003', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'jm.mfjlb.top25', 'type': 'vmess', 'server': 'jm.mfjlb.top', 'port': '20038', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'jm.mfjlb.top26', 'type': 'vmess', 'server': 'jm.mfjlb.top', 'port': '20039', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hz.mfjlb.top27', 'type': 'vmess', 'server': 'hz.mfjlb.top', 'port': '20010', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hz.mfjlb.top28', 'type': 'vmess', 'server': 'hz.mfjlb.top', 'port': '20014', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'gz.mgnb.cf29', 'type': 'vmess', 'server': 'gz.mgnb.cf', 'port': '40004', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hn.mgnb.cf30', 'type': 'vmess', 'server': 'hn.mgnb.cf', 'port': '40004', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'jm.mfjlb.top31', 'type': 'vmess', 'server': 'jm.mfjlb.top', 'port': '20041', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hz.mfjlb.top32', 'type': 'vmess', 'server': 'hz.mfjlb.top', 'port': '20016', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'gz.mgnb.cf33', 'type': 'vmess', 'server': 'gz.mgnb.cf', 'port': '40005', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'gz.mgnb.cf34', 'type': 'vmess', 'server': 'gz.mgnb.cf', 'port': '40006', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hn.mgnb.cf35', 'type': 'vmess', 'server': 'hn.mgnb.cf', 'port': '40005', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hn.mgnb.cf36', 'type': 'vmess', 'server': 'hn.mgnb.cf', 'port': '40006', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'jm.mfjlb.top37', 'type': 'vmess', 'server': 'jm.mfjlb.top', 'port': '20042', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'jm.mfjlb.top38', 'type': 'vmess', 'server': 'jm.mfjlb.top', 'port': '20043', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hz.mfjlb.top39', 'type': 'vmess', 'server': 'hz.mfjlb.top', 'port': '20019', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hz.mfjlb.top40', 'type': 'vmess', 'server': 'hz.mfjlb.top', 'port': '20020', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'gz.mgnb.cf41', 'type': 'vmess', 'server': 'gz.mgnb.cf', 'port': '40007', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'gz.mgnb.cf42', 'type': 'vmess', 'server': 'gz.mgnb.cf', 'port': '40008', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hn.mgnb.cf43', 'type': 'vmess', 'server': 'hn.mgnb.cf', 'port': '40007', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hn.mgnb.cf44', 'type': 'vmess', 'server': 'hn.mgnb.cf', 'port': '40008', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'jm.mfjlb.top45', 'type': 'vmess', 'server': 'jm.mfjlb.top', 'port': '20046', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'jm.mfjlb.top46', 'type': 'vmess', 'server': 'jm.mfjlb.top', 'port': '20049', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hz.mfjlb.top47', 'type': 'vmess', 'server': 'hz.mfjlb.top', 'port': '20021', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'hz.mfjlb.top48', 'type': 'vmess', 'server': 'hz.mfjlb.top', 'port': '20023', 'uuid': 'c78f9b57-563c-4524-b31b-3935d05756c3', 'alterId': '0', 'cipher': 'none', 'network': 'ws'}
+  - {'name': '183.236.55.24949', 'type': 'vmess', 'server': '183.236.55.249', 'port': '21943', 'uuid': '5832e87b-4269-4466-b79e-8ab9cba5a681', 'alterId': '0', 'cipher': 'none', 'network': 'ws', 'tls': True}
 
 proxy-groups:
 
@@ -124,158 +99,108 @@ proxy-groups:
 - name: 🖱️select
   type: select
   proxies:
-    - "l1-aws-kr-01.mugun.xyz1"
-    - "l1-aws-kr-02.mugun.xyz2"
-    - "l1-aws-kr-03.mugun.xyz3"
-    - "l1-aws-kr-04.mugun.xyz4"
-    - "l1-aws-kr-05.mugun.xyz5"
-    - "l1-aws-kr-06.mugun.xyz6"
-    - "l1-aws-kr-07.mugun.xyz7"
-    - "l1-aws-kr-08.mugun.xyz8"
-    - "l1-aws-jp-01.mugun.xyz9"
-    - "l1-aws-jp-02.mugun.xyz10"
-    - "l1-aws-jp-03.mugun.xyz11"
-    - "l1-aws-jp-04.mugun.xyz12"
-    - "l1-aws-jp-05.mugun.xyz13"
-    - "l1-aws-jp-06.mugun.xyz14"
-    - "l1-aws-jp-07.mugun.xyz15"
-    - "l1-aws-jp-08.mugun.xyz16"
-    - "l1-aws-sg-01.mugun.xyz17"
-    - "l1-aws-sg-02.mugun.xyz18"
-    - "l1-aws-sg-03.mugun.xyz19"
-    - "l1-aws-sg-05.mugun.xyz20"
-    - "l1-aws-sg-06.mugun.xyz21"
-    - "l1-aws-sg-07.mugun.xyz22"
-    - "l1-aws-sg-08.mugun.xyz23"
-    - "l2-ntt-us-01.mugun.xyz24"
-    - "l2-ntt-us-02.mugun.xyz25"
-    - "l2-ntt-us-03.mugun.xyz26"
-    - "l2-ntt-us-04.mugun.xyz27"
-    - "global-canton-jp-a-01.mugun.xyz28"
-    - "global-canton-jp-01.mugun.xyz29"
-    - "global-canton-jp-01.mugun.xyz30"
-    - "global-canton-jp-a-01.mugun.xyz31"
-    - "global-canton-tw-a-01.mugun.xyz32"
-    - "global-canton-tw-a-01.mugun.xyz33"
-    - "global-canton-tw-a-01.mugun.xyz34"
-    - "global-canton-tw-a-01.mugun.xyz35"
-    - "global-canton-hk-a-01.mugun.xyz36"
-    - "global-canton-hk-a-01.mugun.xyz37"
-    - "global-canton-sg-01.mugun.xyz38"
-    - "ru01.kelecloud.xyz39"
-    - "194.87.215.5740"
-    - "52.80.57.14541"
-    - "us01.kelecloud.xyz42"
-    - "52.80.57.14543"
-    - "美国GIA44"
-    - "52.80.57.14545"
-    - "jp01.kelecloud.xyz46"
-    - "jp02.kelecloud.xyz47"
-    - "jp03.kelecloud.xyz48"
-    - "a050511e06f3c8a24.awsglobalaccelerator.com49"
-    - "cncn.blackhole02.site50"
-    - "cncn.blackhole02.site51"
-    - "gzcm2.3sx.xyz52"
-    - "tw01.kelecloud.xyz53"
-    - "183.gczm.blackhole02.site54"
-    - "52.80.57.14555"
-    - "gzcm2.3sx.xyz56"
-    - "183.236.57.12857"
-    - "hk02.kelecloud.xyz58"
-    - "52.80.57.14559"
-    - "gzcm2.3sx.xyz60"
-    - "183.236.57.12861"
-    - "hk03.kelecloud.xyz62"
-    - "gzcm2.3sx.xyz63"
-    - "hk04.kelecloud.xyz64"
-    - "gzcm2.3sx.xyz65"
-    - "18.162.52.13166"
-    - "52.80.57.14567"
-    - "hk01.kelecloud.xyz68"
-    - "gzcm2.3sx.xyz69"
-    - "a5009ddcec736d4bf.awsglobalaccelerator.com70"
-    - "207.244.84.4071"
-    - "89.45.7.5172"
-    - "89.46.223.23973"
-    - "104.200.131.24574"
+    - "89.46.223.2391"
+    - "101.69.128.842"
+    - "101.69.128.843"
+    - "nat.gz.kola.ga4"
+    - "13.208.190.1525"
+    - "nat.gz.kola.ga6"
+    - "202.81.235.747"
+    - "202.81.235.768"
+    - "202.81.235.819"
+    - "202.81.235.8010"
+    - "202.81.235.7911"
+    - "202.81.235.8412"
+    - "gz.mgnb.cf13"
+    - "gz.mgnb.cf14"
+    - "hn.mgnb.cf15"
+    - "hn.mgnb.cf16"
+    - "jm.mfjlb.top17"
+    - "jm.mfjlb.top18"
+    - "hz.mfjlb.top19"
+    - "hz.mfjlb.top20"
+    - "gz.mgnb.cf21"
+    - "gz.mgnb.cf22"
+    - "hn.mgnb.cf23"
+    - "hn.mgnb.cf24"
+    - "jm.mfjlb.top25"
+    - "jm.mfjlb.top26"
+    - "hz.mfjlb.top27"
+    - "hz.mfjlb.top28"
+    - "gz.mgnb.cf29"
+    - "hn.mgnb.cf30"
+    - "jm.mfjlb.top31"
+    - "hz.mfjlb.top32"
+    - "gz.mgnb.cf33"
+    - "gz.mgnb.cf34"
+    - "hn.mgnb.cf35"
+    - "hn.mgnb.cf36"
+    - "jm.mfjlb.top37"
+    - "jm.mfjlb.top38"
+    - "hz.mfjlb.top39"
+    - "hz.mfjlb.top40"
+    - "gz.mgnb.cf41"
+    - "gz.mgnb.cf42"
+    - "hn.mgnb.cf43"
+    - "hn.mgnb.cf44"
+    - "jm.mfjlb.top45"
+    - "jm.mfjlb.top46"
+    - "hz.mfjlb.top47"
+    - "hz.mfjlb.top48"
+    - "183.236.55.24949"
 # > 💻auto_select
 - name: 💻auto_select
   type: url-test
   proxies:
-    - "l1-aws-kr-01.mugun.xyz1"
-    - "l1-aws-kr-02.mugun.xyz2"
-    - "l1-aws-kr-03.mugun.xyz3"
-    - "l1-aws-kr-04.mugun.xyz4"
-    - "l1-aws-kr-05.mugun.xyz5"
-    - "l1-aws-kr-06.mugun.xyz6"
-    - "l1-aws-kr-07.mugun.xyz7"
-    - "l1-aws-kr-08.mugun.xyz8"
-    - "l1-aws-jp-01.mugun.xyz9"
-    - "l1-aws-jp-02.mugun.xyz10"
-    - "l1-aws-jp-03.mugun.xyz11"
-    - "l1-aws-jp-04.mugun.xyz12"
-    - "l1-aws-jp-05.mugun.xyz13"
-    - "l1-aws-jp-06.mugun.xyz14"
-    - "l1-aws-jp-07.mugun.xyz15"
-    - "l1-aws-jp-08.mugun.xyz16"
-    - "l1-aws-sg-01.mugun.xyz17"
-    - "l1-aws-sg-02.mugun.xyz18"
-    - "l1-aws-sg-03.mugun.xyz19"
-    - "l1-aws-sg-05.mugun.xyz20"
-    - "l1-aws-sg-06.mugun.xyz21"
-    - "l1-aws-sg-07.mugun.xyz22"
-    - "l1-aws-sg-08.mugun.xyz23"
-    - "l2-ntt-us-01.mugun.xyz24"
-    - "l2-ntt-us-02.mugun.xyz25"
-    - "l2-ntt-us-03.mugun.xyz26"
-    - "l2-ntt-us-04.mugun.xyz27"
-    - "global-canton-jp-a-01.mugun.xyz28"
-    - "global-canton-jp-01.mugun.xyz29"
-    - "global-canton-jp-01.mugun.xyz30"
-    - "global-canton-jp-a-01.mugun.xyz31"
-    - "global-canton-tw-a-01.mugun.xyz32"
-    - "global-canton-tw-a-01.mugun.xyz33"
-    - "global-canton-tw-a-01.mugun.xyz34"
-    - "global-canton-tw-a-01.mugun.xyz35"
-    - "global-canton-hk-a-01.mugun.xyz36"
-    - "global-canton-hk-a-01.mugun.xyz37"
-    - "global-canton-sg-01.mugun.xyz38"
-    - "ru01.kelecloud.xyz39"
-    - "194.87.215.5740"
-    - "52.80.57.14541"
-    - "us01.kelecloud.xyz42"
-    - "52.80.57.14543"
-    - "美国GIA44"
-    - "52.80.57.14545"
-    - "jp01.kelecloud.xyz46"
-    - "jp02.kelecloud.xyz47"
-    - "jp03.kelecloud.xyz48"
-    - "a050511e06f3c8a24.awsglobalaccelerator.com49"
-    - "cncn.blackhole02.site50"
-    - "cncn.blackhole02.site51"
-    - "gzcm2.3sx.xyz52"
-    - "tw01.kelecloud.xyz53"
-    - "183.gczm.blackhole02.site54"
-    - "52.80.57.14555"
-    - "gzcm2.3sx.xyz56"
-    - "183.236.57.12857"
-    - "hk02.kelecloud.xyz58"
-    - "52.80.57.14559"
-    - "gzcm2.3sx.xyz60"
-    - "183.236.57.12861"
-    - "hk03.kelecloud.xyz62"
-    - "gzcm2.3sx.xyz63"
-    - "hk04.kelecloud.xyz64"
-    - "gzcm2.3sx.xyz65"
-    - "18.162.52.13166"
-    - "52.80.57.14567"
-    - "hk01.kelecloud.xyz68"
-    - "gzcm2.3sx.xyz69"
-    - "a5009ddcec736d4bf.awsglobalaccelerator.com70"
-    - "207.244.84.4071"
-    - "89.45.7.5172"
-    - "89.46.223.23973"
-    - "104.200.131.24574"
+    - "89.46.223.2391"
+    - "101.69.128.842"
+    - "101.69.128.843"
+    - "nat.gz.kola.ga4"
+    - "13.208.190.1525"
+    - "nat.gz.kola.ga6"
+    - "202.81.235.747"
+    - "202.81.235.768"
+    - "202.81.235.819"
+    - "202.81.235.8010"
+    - "202.81.235.7911"
+    - "202.81.235.8412"
+    - "gz.mgnb.cf13"
+    - "gz.mgnb.cf14"
+    - "hn.mgnb.cf15"
+    - "hn.mgnb.cf16"
+    - "jm.mfjlb.top17"
+    - "jm.mfjlb.top18"
+    - "hz.mfjlb.top19"
+    - "hz.mfjlb.top20"
+    - "gz.mgnb.cf21"
+    - "gz.mgnb.cf22"
+    - "hn.mgnb.cf23"
+    - "hn.mgnb.cf24"
+    - "jm.mfjlb.top25"
+    - "jm.mfjlb.top26"
+    - "hz.mfjlb.top27"
+    - "hz.mfjlb.top28"
+    - "gz.mgnb.cf29"
+    - "hn.mgnb.cf30"
+    - "jm.mfjlb.top31"
+    - "hz.mfjlb.top32"
+    - "gz.mgnb.cf33"
+    - "gz.mgnb.cf34"
+    - "hn.mgnb.cf35"
+    - "hn.mgnb.cf36"
+    - "jm.mfjlb.top37"
+    - "jm.mfjlb.top38"
+    - "hz.mfjlb.top39"
+    - "hz.mfjlb.top40"
+    - "gz.mgnb.cf41"
+    - "gz.mgnb.cf42"
+    - "hn.mgnb.cf43"
+    - "hn.mgnb.cf44"
+    - "jm.mfjlb.top45"
+    - "jm.mfjlb.top46"
+    - "hz.mfjlb.top47"
+    - "hz.mfjlb.top48"
+    - "183.236.55.24949"
   url: 'http://www.gstatic.com/generate_204'
   interval: 600
 # > 📺BiliBili
