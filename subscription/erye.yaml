@@ -1,4 +1,4 @@
-# -> time: 21-06-10: 19-56-02:06
+# -> time: 21-06-16: 13-25-44:06
 
 
 #http 和socks5 端口
@@ -34,50 +34,47 @@ tun:
   macOS-auto-detect-interface: true # 自动检测出口网卡
 #在此导入所有节点
 proxies:
-  - {'name': 'superaga.okvpn.xyz1', 'type': 'vmess', 'server': 'superaga.okvpn.xyz', 'port': 12000, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/cctv13/hd.m3u8'}
-  - {'name': 'superaga.okvpn.xyz2', 'type': 'vmess', 'server': 'superaga.okvpn.xyz', 'port': 12000, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/cctv13/hd.m3u8'}
-  - {'name': 'cm-jm.okvpn.xyz3', 'type': 'vmess', 'server': 'cm-jm.okvpn.xyz', 'port': 20015, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'cm-jm.okvpn.xyz4', 'type': 'vmess', 'server': 'cm-jm.okvpn.xyz', 'port': 20015, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'cu-cs.okvpn.xyz5', 'type': 'vmess', 'server': 'cu-cs.okvpn.xyz', 'port': 30014, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'cu-cs.okvpn.xyz6', 'type': 'vmess', 'server': 'cu-cs.okvpn.xyz', 'port': 30014, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'cu-cs.okvpn.xyz7', 'type': 'vmess', 'server': 'cu-cs.okvpn.xyz', 'port': 30014, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'cu-cs.okvpn.xyz8', 'type': 'vmess', 'server': 'cu-cs.okvpn.xyz', 'port': 30015, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'cnjm.xlanfly.xyz9', 'type': 'vmess', 'server': 'cnjm.xlanfly.xyz', 'port': 40007, 'uuid': 'ee7b71d2-f3e5-45de-8d80-dab3848e9a6c', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '16.HKG.ASIA.BIGAIRPORT.NET10', 'type': 'vmess', 'server': '16.HKG.ASIA.BIGAIRPORT.NET', 'port': 80, 'uuid': '83c18473-68f5-4c6e-8f3b-728abd2f04df', 'alterId': 2, 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '65.52.164.21911', 'type': 'vmess', 'server': '65.52.164.219', 'port': 20021, 'uuid': 'e9a058c8-4960-4b05-8699-0c526058d345', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/ws'}
-  - {'name': '65.52.164.21912', 'type': 'vmess', 'server': '65.52.164.219', 'port': 10003, 'uuid': 'e9a058c8-4960-4b05-8699-0c526058d345', 'alterId': 2, 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/index'}
-  - {'name': '65.52.164.21913', 'type': 'vmess', 'server': '65.52.164.219', 'port': 10008, 'uuid': 'e9a058c8-4960-4b05-8699-0c526058d345', 'alterId': 2, 'cipher': 'none', 'network': 'ws', 'ws-path': '/ws'}
-  - {'name': '125.39.174.114', 'type': 'vmess', 'server': '125.39.174.1', 'port': 80, 'uuid': 'bd1fff62-3801-4453-a74a-92e40d080c07', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '61.182.136.115', 'type': 'vmess', 'server': '61.182.136.1', 'port': 80, 'uuid': 'bd1fff62-3801-4453-a74a-92e40d080c07', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '119.188.97.116', 'type': 'vmess', 'server': '119.188.97.1', 'port': 80, 'uuid': 'bd1fff62-3801-4453-a74a-92e40d080c07', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '42.236.94.117', 'type': 'vmess', 'server': '42.236.94.1', 'port': 80, 'uuid': 'bd1fff62-3801-4453-a74a-92e40d080c07', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '113.207.102.118', 'type': 'vmess', 'server': '113.207.102.1', 'port': 80, 'uuid': 'bd1fff62-3801-4453-a74a-92e40d080c07', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '112.25.91.119', 'type': 'vmess', 'server': '112.25.91.1', 'port': 80, 'uuid': 'bd1fff62-3801-4453-a74a-92e40d080c07', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '115.231.187.120', 'type': 'vmess', 'server': '115.231.187.1', 'port': 80, 'uuid': 'bd1fff62-3801-4453-a74a-92e40d080c07', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '115.231.187.121', 'type': 'vmess', 'server': '115.231.187.1', 'port': 80, 'uuid': 'bd1fff62-3801-4453-a74a-92e40d080c07', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '125.39.174.122', 'type': 'vmess', 'server': '125.39.174.1', 'port': 80, 'uuid': 'bd1fff62-3801-4453-a74a-92e40d080c07', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '61.182.136.123', 'type': 'vmess', 'server': '61.182.136.1', 'port': 80, 'uuid': 'bd1fff62-3801-4453-a74a-92e40d080c07', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '119.188.97.124', 'type': 'vmess', 'server': '119.188.97.1', 'port': 80, 'uuid': 'bd1fff62-3801-4453-a74a-92e40d080c07', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '42.236.94.125', 'type': 'vmess', 'server': '42.236.94.1', 'port': 80, 'uuid': 'bd1fff62-3801-4453-a74a-92e40d080c07', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '113.207.102.126', 'type': 'vmess', 'server': '113.207.102.1', 'port': 80, 'uuid': 'bd1fff62-3801-4453-a74a-92e40d080c07', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': 'cm-jm.okvpn.xyz27', 'type': 'vmess', 'server': 'cm-jm.okvpn.xyz', 'port': 20015, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'cm-jm.okvpn.xyz28', 'type': 'vmess', 'server': 'cm-jm.okvpn.xyz', 'port': 20015, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'cm-jm.okvpn.xyz29', 'type': 'vmess', 'server': 'cm-jm.okvpn.xyz', 'port': 20015, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'cm-jm.okvpn.xyz30', 'type': 'vmess', 'server': 'cm-jm.okvpn.xyz', 'port': 20015, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'cu-cs.okvpn.xyz31', 'type': 'vmess', 'server': 'cu-cs.okvpn.xyz', 'port': 30014, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'cu-cs.okvpn.xyz32', 'type': 'vmess', 'server': 'cu-cs.okvpn.xyz', 'port': 30014, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'cu-cs.okvpn.xyz33', 'type': 'vmess', 'server': 'cu-cs.okvpn.xyz', 'port': 30014, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'cu-cs.okvpn.xyz34', 'type': 'vmess', 'server': 'cu-cs.okvpn.xyz', 'port': 30014, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'cu-cs.okvpn.xyz35', 'type': 'vmess', 'server': 'cu-cs.okvpn.xyz', 'port': 30014, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'cu-cs.okvpn.xyz36', 'type': 'vmess', 'server': 'cu-cs.okvpn.xyz', 'port': 30014, 'uuid': '940e2252-f723-4816-9535-87b209de80fc', 'alterId': 1, 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'jpaz1.biteb.club37', 'type': 'vmess', 'server': 'jpaz1.biteb.club', 'port': 51022, 'uuid': 'c0f9b25d-1802-33e1-85fd-0e3584684ab0', 'alterId': 2, 'cipher': 'none', 'network': 'ws', 'ws-path': '/v2ray'}
-  - {'name': '104.16.38.20538', 'type': 'vmess', 'server': '104.16.38.205', 'port': 443, 'uuid': 'e4ca631c-6eda-427a-9800-f886b04468e5', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/nxyavws'}
-  - {'name': '104.19.39.16839', 'type': 'vmess', 'server': '104.19.39.168', 'port': 443, 'uuid': 'e4ca631c-6eda-427a-9800-f886b04468e5', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/nxyavws'}
-  - {'name': '104.19.41.7240', 'type': 'vmess', 'server': '104.19.41.72', 'port': 443, 'uuid': 'e4ca631c-6eda-427a-9800-f886b04468e5', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/nxyavws'}
-  - {'name': '104.16.183.21941', 'type': 'vmess', 'server': '104.16.183.219', 'port': 443, 'uuid': 'e4ca631c-6eda-427a-9800-f886b04468e5', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/nxyavws'}
-  - {'name': '104.19.161.20042', 'type': 'vmess', 'server': '104.19.161.200', 'port': 443, 'uuid': 'e4ca631c-6eda-427a-9800-f886b04468e5', 'alterId': 1, 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/nxyavws'}
-  - {'name': '52.148.85.16043', 'type': 'vmess', 'server': '52.148.85.160', 'port': 25172, 'uuid': '3097986e-8a34-422e-8577-ef20ce0eafc5', 'alterId': 64, 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': 'awsbj1.pf.2021.gq44', 'type': 'vmess', 'server': 'awsbj1.pf.2021.gq', 'port': 26171, 'uuid': '98118c6b-7ecb-3507-97c4-74eb7da0e6ed', 'alterId': 2, 'cipher': 'none', 'network': 'ws', 'ws-path': '/fanfanyun'}
+  - {'name': '104.19.26.181', 'type': 'vmess', 'server': '104.19.26.18', 'port': '443', 'uuid': 'bfc6607d-7aa7-4baf-9c22-bf9fb97b573e', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/2yevws?ed=2048'}
+  - {'name': '104.19.34.1892', 'type': 'vmess', 'server': '104.19.34.189', 'port': '443', 'uuid': 'bfc6607d-7aa7-4baf-9c22-bf9fb97b573e', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/2yevws'}
+  - {'name': '104.17.97.2303', 'type': 'vmess', 'server': '104.17.97.230', 'port': '443', 'uuid': 'bfc6607d-7aa7-4baf-9c22-bf9fb97b573e', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/2yevws?ed=2048'}
+  - {'name': 'gmgm.xlanfly.xyz4', 'type': 'vmess', 'server': 'gmgm.xlanfly.xyz', 'port': '34011', 'uuid': '55b85b35-5390-462d-9ff9-c864fb59a4bb', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': 'ngzyd.okex-tradebot.xyz5', 'type': 'vmess', 'server': 'ngzyd.okex-tradebot.xyz', 'port': '30002', 'uuid': 'a799bedc-4eb3-4ea7-a239-21ab43d65a03', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'ngzyd.okex-tradebot.xyz6', 'type': 'vmess', 'server': 'ngzyd.okex-tradebot.xyz', 'port': '30000', 'uuid': 'a799bedc-4eb3-4ea7-a239-21ab43d65a03', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
+  - {'name': 'jmmj.xlanfly.xyz7', 'type': 'vmess', 'server': 'jmmj.xlanfly.xyz', 'port': '40005', 'uuid': '55b85b35-5390-462d-9ff9-c864fb59a4bb', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': '5.183.176.1178', 'type': 'vmess', 'server': '5.183.176.117', 'port': '443', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
+  - {'name': '104.200.131.1659', 'server': '104.200.131.165', 'port': '33992', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '8n6pwAcrrv2pj6tFY2p3TbQ6'}
+  - {'name': '152.67.225.11410', 'type': 'vmess', 'server': '152.67.225.114', 'port': '23456', 'uuid': '86e46276-7b5a-445e-8a66-1f3ec592fc8f', 'alterId': '32', 'cipher': 'none', 'network': 'ws', 'ws-path': '/cs'}
+  - {'name': '209.141.32.23811', 'type': 'vmess', 'server': '209.141.32.238', 'port': '32917', 'uuid': '552f62be-f7ca-465d-b18e-e081e8241ca2', 'alterId': '0', 'cipher': 'none'}
+  - {'name': '104.19.40.912', 'type': 'vmess', 'server': '104.19.40.9', 'port': '443', 'uuid': 'bfc6607d-7aa7-4baf-9c22-bf9fb97b573e', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/2yevws'}
+  - {'name': '23.225.28.17313', 'type': 'vmess', 'server': '23.225.28.173', 'port': '443', 'uuid': 'da31df4d-3477-4064-884b-e6ff947ac117', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
+  - {'name': '23.224.8.9114', 'type': 'vmess', 'server': '23.224.8.91', 'port': '443', 'uuid': '116dbc8a-ec13-49a5-b954-d49f65630ba4', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
+  - {'name': '91.90.121.16315', 'server': '91.90.121.163', 'port': '31572', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'n8w4StnbVD9dmXYn4Ajt87EA'}
+  - {'name': '加拿大安大略省基奇纳DataCity数据中心+1816', 'server': 't3.ssrsub.one', 'port': '2096', 'type': 'trojan', 'password': 'rvAjK7R2', 'sni': 't3.ssrsub.one'}
+  - {'name': '加拿大安大略省基奇纳DataCity数据中心+1917', 'server': 't5.ssrsub.one', 'port': '2096', 'type': 'trojan', 'password': 'JIwQySqZ', 'sni': 't5.ssrsub.one'}
+  - {'name': '5.183.101.20018', 'type': 'vmess', 'server': '5.183.101.200', 'port': '35374', 'uuid': '62836733-0014-4014-e0e3-908eea2f3063', 'alterId': '64', 'cipher': 'none', 'ws-path': '/'}
+  - {'name': '加拿大安大略省基奇纳DataCity数据中心+2119', 'server': 't1.ssrsub.one', 'port': '2096', 'type': 'trojan', 'password': 'upfdQ5t4', 'sni': 't1.ssrsub.one'}
+  - {'name': 'cfcn.9sep.org20', 'type': 'vmess', 'server': 'cfcn.9sep.org', 'port': '80', 'uuid': 'f22a80af-a9c9-3360-841e-25610688f353', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/w421x2bx2za'}
+  - {'name': '加拿大安大略省基奇纳DataCity数据中心+2421', 'server': 't2.ssrsub.one', 'port': '2096', 'type': 'trojan', 'password': 'CNd95TWH', 'sni': 't2.ssrsub.one'}
+  - {'name': '3.66.221.17522', 'type': 'vmess', 'server': '3.66.221.175', 'port': '31186', 'uuid': '3ebad99a-4470-4998-94be-43046d0b4986', 'alterId': '64', 'cipher': 'none', 'ws-path': '/'}
+  - {'name': '154.84.1.19923', 'type': 'vmess', 'server': '154.84.1.199', 'port': '443', 'uuid': '3268727a-7556-4211-8a49-2cf5c5096da4', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
+  - {'name': '154.84.1.10624', 'type': 'vmess', 'server': '154.84.1.106', 'port': '443', 'uuid': 'a8089885-9602-4052-b1a3-1c9e02df635d', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
+  - {'name': '154.84.1.11625', 'type': 'vmess', 'server': '154.84.1.116', 'port': '443', 'uuid': 'b349f65b-4b19-4255-9ee2-b679990540e7', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
+  - {'name': '46.182.107.4426', 'type': 'vmess', 'server': '46.182.107.44', 'port': '443', 'uuid': '33b1f366-4537-437f-b3f6-20b0e0046828', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
+  - {'name': '46.182.107.327', 'type': 'vmess', 'server': '46.182.107.3', 'port': '443', 'uuid': 'b2aa7a8a-ab88-4c0f-a310-0b9456c69420', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
+  - {'name': '154.84.1.14628', 'type': 'vmess', 'server': '154.84.1.146', 'port': '443', 'uuid': '3268727a-7556-4211-8a49-2cf5c5096da4', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
+  - {'name': '154.84.1.21529', 'type': 'vmess', 'server': '154.84.1.215', 'port': '443', 'uuid': '756f5f10-6bda-4dd0-bf07-5c4d61773611', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
+  - {'name': '46.182.107.14730', 'type': 'vmess', 'server': '46.182.107.147', 'port': '443', 'uuid': '77a48930-1e67-4a72-96be-3e584858ea4f', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
+  - {'name': '154.84.1.21431', 'type': 'vmess', 'server': '154.84.1.214', 'port': '443', 'uuid': '756f5f10-6bda-4dd0-bf07-5c4d61773611', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
+  - {'name': '46.182.107.15032', 'type': 'vmess', 'server': '46.182.107.150', 'port': '443', 'uuid': 'd3243794-6fe7-437d-862f-0a6392d00f70', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
+  - {'name': '154.84.1.21733', 'type': 'vmess', 'server': '154.84.1.217', 'port': '443', 'uuid': 'd03a8fbf-7d51-46c3-b02d-17ff0b32e4c5', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
+  - {'name': 'ac2088.herokuapp.com34', 'type': 'vmess', 'server': 'ac2088.herokuapp.com', 'port': '443', 'uuid': 'd1babe08-f8ac-490b-b66f-9be27467f3cc', 'alterId': '0', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess'}
+  - {'name': '172.67.154.8535', 'type': 'vmess', 'server': '172.67.154.85', 'port': '443', 'uuid': '3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
+  - {'name': '104.18.6.13836', 'type': 'vmess', 'server': '104.18.6.138', 'port': '443', 'uuid': '3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
+  - {'name': '95.214.55.11937', 'type': 'vmess', 'server': '95.214.55.119', 'port': '16408', 'uuid': '4e49e7c6-b7cd-4c74-c022-2add80a19556', 'alterId': '64', 'cipher': 'none', 'ws-path': '/'}
+  - {'name': '104.18.7.13838', 'type': 'vmess', 'server': '104.18.7.138', 'port': '443', 'uuid': '3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
+  - {'name': '104.21.48.16139', 'type': 'vmess', 'server': '104.21.48.161', 'port': '443', 'uuid': '3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
+  - {'name': '213.59.118.16840', 'type': 'vmess', 'server': '213.59.118.168', 'port': '2087', 'uuid': '3622a9e4-cb5b-11eb-9cac-97a1c60690e1', 'alterId': '0', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/4UTY85mc/'}
+  - {'name': '23.224.191.241', 'type': 'vmess', 'server': '23.224.191.2', 'port': '443', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
 
 proxy-groups:
 
@@ -94,98 +91,92 @@ proxy-groups:
 - name: 🖱️select
   type: select
   proxies:
-    - "superaga.okvpn.xyz1"
-    - "superaga.okvpn.xyz2"
-    - "cm-jm.okvpn.xyz3"
-    - "cm-jm.okvpn.xyz4"
-    - "cu-cs.okvpn.xyz5"
-    - "cu-cs.okvpn.xyz6"
-    - "cu-cs.okvpn.xyz7"
-    - "cu-cs.okvpn.xyz8"
-    - "cnjm.xlanfly.xyz9"
-    - "16.HKG.ASIA.BIGAIRPORT.NET10"
-    - "65.52.164.21911"
-    - "65.52.164.21912"
-    - "65.52.164.21913"
-    - "125.39.174.114"
-    - "61.182.136.115"
-    - "119.188.97.116"
-    - "42.236.94.117"
-    - "113.207.102.118"
-    - "112.25.91.119"
-    - "115.231.187.120"
-    - "115.231.187.121"
-    - "125.39.174.122"
-    - "61.182.136.123"
-    - "119.188.97.124"
-    - "42.236.94.125"
-    - "113.207.102.126"
-    - "cm-jm.okvpn.xyz27"
-    - "cm-jm.okvpn.xyz28"
-    - "cm-jm.okvpn.xyz29"
-    - "cm-jm.okvpn.xyz30"
-    - "cu-cs.okvpn.xyz31"
-    - "cu-cs.okvpn.xyz32"
-    - "cu-cs.okvpn.xyz33"
-    - "cu-cs.okvpn.xyz34"
-    - "cu-cs.okvpn.xyz35"
-    - "cu-cs.okvpn.xyz36"
-    - "jpaz1.biteb.club37"
-    - "104.16.38.20538"
-    - "104.19.39.16839"
-    - "104.19.41.7240"
-    - "104.16.183.21941"
-    - "104.19.161.20042"
-    - "52.148.85.16043"
-    - "awsbj1.pf.2021.gq44"
+    - "104.19.26.181"
+    - "104.19.34.1892"
+    - "104.17.97.2303"
+    - "gmgm.xlanfly.xyz4"
+    - "ngzyd.okex-tradebot.xyz5"
+    - "ngzyd.okex-tradebot.xyz6"
+    - "jmmj.xlanfly.xyz7"
+    - "5.183.176.1178"
+    - "104.200.131.1659"
+    - "152.67.225.11410"
+    - "209.141.32.23811"
+    - "104.19.40.912"
+    - "23.225.28.17313"
+    - "23.224.8.9114"
+    - "91.90.121.16315"
+    - "加拿大安大略省基奇纳DataCity数据中心+1816"
+    - "加拿大安大略省基奇纳DataCity数据中心+1917"
+    - "5.183.101.20018"
+    - "加拿大安大略省基奇纳DataCity数据中心+2119"
+    - "cfcn.9sep.org20"
+    - "加拿大安大略省基奇纳DataCity数据中心+2421"
+    - "3.66.221.17522"
+    - "154.84.1.19923"
+    - "154.84.1.10624"
+    - "154.84.1.11625"
+    - "46.182.107.4426"
+    - "46.182.107.327"
+    - "154.84.1.14628"
+    - "154.84.1.21529"
+    - "46.182.107.14730"
+    - "154.84.1.21431"
+    - "46.182.107.15032"
+    - "154.84.1.21733"
+    - "ac2088.herokuapp.com34"
+    - "172.67.154.8535"
+    - "104.18.6.13836"
+    - "95.214.55.11937"
+    - "104.18.7.13838"
+    - "104.21.48.16139"
+    - "213.59.118.16840"
+    - "23.224.191.241"
 # > 💻auto_select
 - name: 💻auto_select
   type: url-test
   proxies:
-    - "superaga.okvpn.xyz1"
-    - "superaga.okvpn.xyz2"
-    - "cm-jm.okvpn.xyz3"
-    - "cm-jm.okvpn.xyz4"
-    - "cu-cs.okvpn.xyz5"
-    - "cu-cs.okvpn.xyz6"
-    - "cu-cs.okvpn.xyz7"
-    - "cu-cs.okvpn.xyz8"
-    - "cnjm.xlanfly.xyz9"
-    - "16.HKG.ASIA.BIGAIRPORT.NET10"
-    - "65.52.164.21911"
-    - "65.52.164.21912"
-    - "65.52.164.21913"
-    - "125.39.174.114"
-    - "61.182.136.115"
-    - "119.188.97.116"
-    - "42.236.94.117"
-    - "113.207.102.118"
-    - "112.25.91.119"
-    - "115.231.187.120"
-    - "115.231.187.121"
-    - "125.39.174.122"
-    - "61.182.136.123"
-    - "119.188.97.124"
-    - "42.236.94.125"
-    - "113.207.102.126"
-    - "cm-jm.okvpn.xyz27"
-    - "cm-jm.okvpn.xyz28"
-    - "cm-jm.okvpn.xyz29"
-    - "cm-jm.okvpn.xyz30"
-    - "cu-cs.okvpn.xyz31"
-    - "cu-cs.okvpn.xyz32"
-    - "cu-cs.okvpn.xyz33"
-    - "cu-cs.okvpn.xyz34"
-    - "cu-cs.okvpn.xyz35"
-    - "cu-cs.okvpn.xyz36"
-    - "jpaz1.biteb.club37"
-    - "104.16.38.20538"
-    - "104.19.39.16839"
-    - "104.19.41.7240"
-    - "104.16.183.21941"
-    - "104.19.161.20042"
-    - "52.148.85.16043"
-    - "awsbj1.pf.2021.gq44"
+    - "104.19.26.181"
+    - "104.19.34.1892"
+    - "104.17.97.2303"
+    - "gmgm.xlanfly.xyz4"
+    - "ngzyd.okex-tradebot.xyz5"
+    - "ngzyd.okex-tradebot.xyz6"
+    - "jmmj.xlanfly.xyz7"
+    - "5.183.176.1178"
+    - "104.200.131.1659"
+    - "152.67.225.11410"
+    - "209.141.32.23811"
+    - "104.19.40.912"
+    - "23.225.28.17313"
+    - "23.224.8.9114"
+    - "91.90.121.16315"
+    - "加拿大安大略省基奇纳DataCity数据中心+1816"
+    - "加拿大安大略省基奇纳DataCity数据中心+1917"
+    - "5.183.101.20018"
+    - "加拿大安大略省基奇纳DataCity数据中心+2119"
+    - "cfcn.9sep.org20"
+    - "加拿大安大略省基奇纳DataCity数据中心+2421"
+    - "3.66.221.17522"
+    - "154.84.1.19923"
+    - "154.84.1.10624"
+    - "154.84.1.11625"
+    - "46.182.107.4426"
+    - "46.182.107.327"
+    - "154.84.1.14628"
+    - "154.84.1.21529"
+    - "46.182.107.14730"
+    - "154.84.1.21431"
+    - "46.182.107.15032"
+    - "154.84.1.21733"
+    - "ac2088.herokuapp.com34"
+    - "172.67.154.8535"
+    - "104.18.6.13836"
+    - "95.214.55.11937"
+    - "104.18.7.13838"
+    - "104.21.48.16139"
+    - "213.59.118.16840"
+    - "23.224.191.241"
   url: 'http://www.gstatic.com/generate_204'
   interval: 600
 # > 📺BiliBili
