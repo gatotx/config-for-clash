@@ -1,4 +1,4 @@
-# -> time: 21-06-24: 19-56-02:06
+# -> time: 21-06-25: 19-56-02:06
 
 
 #http 和socks5 端口
@@ -34,76 +34,41 @@ tun:
   macOS-auto-detect-interface: true # 自动检测出口网卡
 #在此导入所有节点
 proxies:
-  - {'name': '16.162.3.111', 'server': '16.162.3.11', 'port': '20050', 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '39341fe7-b8b7-4605-a811-af1f1d46d4fb'}
-  - {'name': '18.157.179.712', 'type': 'vmess', 'server': '18.157.179.71', 'port': '443', 'uuid': '81dd574d-8d47-4b31-9f5a-3f638b427842', 'alterId': '64', 'cipher': 'none', 'ws-path': '/'}
-  - {'name': '俄罗斯++33', 'server': 'a8.ssrsub.one', 'port': '8443', 'type': 'trojan', 'password': 'YOR8hMHi', 'sni': 'a8.ssrsub.one'}
-  - {'name': '148.72.169.2134', 'server': '148.72.169.213', 'port': '33992', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '8n6pwAcrrv2pj6tFY2p3TbQ6'}
-  - {'name': '104.200.131.1655', 'server': '104.200.131.165', 'port': '33992', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '8n6pwAcrrv2pj6tFY2p3TbQ6'}
-  - {'name': '198.2.200.2186', 'type': 'vmess', 'server': '198.2.200.218', 'port': '443', 'uuid': '2a23dbd5-09cf-4aa8-a835-3230728c4973', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/path/310910211916'}
-  - {'name': '54.177.24.17', 'server': '54.177.24.1', 'port': '20050', 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '39341fe7-b8b7-4605-a811-af1f1d46d4fb'}
-  - {'name': '23.225.125.1958', 'type': 'vmess', 'server': '23.225.125.195', 'port': '443', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/path/301109172001'}
-  - {'name': '23.224.30.709', 'type': 'vmess', 'server': '23.224.30.70', 'port': '443', 'uuid': '688f4b5d-ce9a-4729-abe5-b66ca96b2ee9', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '23.224.30.6910', 'type': 'vmess', 'server': '23.224.30.69', 'port': '443', 'uuid': '688f4b5d-ce9a-4729-abe5-b66ca96b2ee9', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '23.224.8.9211', 'type': 'vmess', 'server': '23.224.8.92', 'port': '443', 'uuid': 'bef6f470-d961-4419-a0df-d9c2dcafaefa', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '198.211.3.15412', 'type': 'vmess', 'server': '198.211.3.154', 'port': '443', 'uuid': '3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/path/310910211916'}
-  - {'name': '198.2.200.21713', 'type': 'vmess', 'server': '198.2.200.217', 'port': '443', 'uuid': '2a23dbd5-09cf-4aa8-a835-3230728c4973', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/path/290516321830'}
-  - {'name': '俄罗斯++1414', 'server': 't8.ssrsub.one', 'port': '443', 'type': 'trojan', 'password': 'QiFPnHKv', 'sni': 't8.ssrsub.one'}
-  - {'name': '185.38.150.12415', 'server': '185.38.150.124', 'port': '31572', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'n8w4StnbVD9dmXYn4Ajt87EA'}
-  - {'name': '154.84.1.1416', 'type': 'vmess', 'server': '154.84.1.14', 'port': '443', 'uuid': '21155efd-8e29-43d2-95bc-fe3190ecb1c6', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/path/310910211916'}
-  - {'name': '46.182.107.4617', 'type': 'vmess', 'server': '46.182.107.46', 'port': '443', 'uuid': 'fe5f69e7-e183-439b-950b-8221ef0651f2', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '46.182.107.14718', 'type': 'vmess', 'server': '46.182.107.147', 'port': '443', 'uuid': '1d474f0b-e78d-4af9-bc4a-a539467bc7a7', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '154.84.1.11619', 'type': 'vmess', 'server': '154.84.1.116', 'port': '443', 'uuid': '20b30916-e203-412e-8ec0-900f3acd3588', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '46.182.107.3920', 'type': 'vmess', 'server': '46.182.107.39', 'port': '443', 'uuid': 'd3133484-f2bf-4b0c-8d38-f8e645b67947', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '154.84.1.1521', 'type': 'vmess', 'server': '154.84.1.15', 'port': '443', 'uuid': '21155efd-8e29-43d2-95bc-fe3190ecb1c6', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/path/310910211916'}
-  - {'name': '46.182.107.9822', 'type': 'vmess', 'server': '46.182.107.98', 'port': '443', 'uuid': '6e79eea4-5f72-4683-ad0e-5339f077621b', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '46.182.107.15323', 'type': 'vmess', 'server': '46.182.107.153', 'port': '443', 'uuid': '130c9f2e-42b1-4ebf-b345-e26111a061f9', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '46.182.107.324', 'type': 'vmess', 'server': '46.182.107.3', 'port': '443', 'uuid': 'bcca23ea-be73-4caf-b143-cbab2be93145', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '46.182.107.14625', 'type': 'vmess', 'server': '46.182.107.146', 'port': '443', 'uuid': 'acedd8e0-e654-4a40-935d-5594c6c114bd', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '154.84.1.10626', 'type': 'vmess', 'server': '154.84.1.106', 'port': '443', 'uuid': '37c29f42-b7c7-40c7-9da9-743dcc4895bc', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '46.182.107.4527', 'type': 'vmess', 'server': '46.182.107.45', 'port': '443', 'uuid': 'fe5f69e7-e183-439b-950b-8221ef0651f2', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '23.225.28.17328', 'type': 'vmess', 'server': '23.225.28.173', 'port': '443', 'uuid': '5ac3d610-1802-491b-ab06-dad9bbd83ff1', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '46.182.107.8129', 'type': 'vmess', 'server': '46.182.107.81', 'port': '443', 'uuid': '37c29f42-b7c7-40c7-9da9-743dcc4895bc', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '46.182.107.15030', 'type': 'vmess', 'server': '46.182.107.150', 'port': '443', 'uuid': 'f5250c4e-f855-4eff-b73c-a02226d42fe7', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '46.182.107.3631', 'type': 'vmess', 'server': '46.182.107.36', 'port': '443', 'uuid': '65ea6727-4461-47a7-a5c4-fef2c67f2f68', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '95.214.55.11832', 'type': 'vmess', 'server': '95.214.55.118', 'port': '50825', 'uuid': '0cfb1063-051e-4a56-ccac-27947710ea0e', 'alterId': '64', 'cipher': 'none'}
-  - {'name': '104.18.6.13833', 'type': 'vmess', 'server': '104.18.6.138', 'port': '443', 'uuid': '3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
-  - {'name': '137.59.52.10734', 'server': '137.59.52.107', 'port': '40093', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'x23Z4LGkGDkThZ9Kaz4DURQp'}
-  - {'name': '23.225.28.17235', 'type': 'vmess', 'server': '23.225.28.172', 'port': '443', 'uuid': '5ac3d610-1802-491b-ab06-dad9bbd83ff1', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
-  - {'name': '104.21.48.16136', 'type': 'vmess', 'server': '104.21.48.161', 'port': '443', 'uuid': '3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
-  - {'name': '137.59.52.10737', 'server': '137.59.52.107', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '5.183.101.20038', 'type': 'vmess', 'server': '5.183.101.200', 'port': '35374', 'uuid': '62836733-0014-4014-e0e3-908eea2f3063', 'alterId': '64', 'cipher': 'none', 'ws-path': '/'}
-  - {'name': '104.19.1.16839', 'type': 'vmess', 'server': '104.19.1.168', 'port': '443', 'uuid': 'f299184b-19e0-41a4-9b4b-65fa8f0e691c', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/jj'}
-  - {'name': '165.154.234.15240', 'type': 'vmess', 'server': '165.154.234.152', 'port': '42541', 'uuid': '41bfdf53-a03c-4233-a86a-f981a002d753', 'alterId': '0', 'cipher': 'none'}
-  - {'name': '95.214.55.12041', 'type': 'vmess', 'server': '95.214.55.120', 'port': '42280', 'uuid': 'ac56c78b-bc3e-45ce-bd20-254339688d17', 'alterId': '64', 'cipher': 'none', 'ws-path': '/'}
-  - {'name': '104.18.7.13842', 'type': 'vmess', 'server': '104.18.7.138', 'port': '443', 'uuid': '3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
-  - {'name': '俄罗斯新西伯利亚JustHost+4343', 'server': 't6.ssrsub.one', 'port': '443', 'type': 'trojan', 'password': 'hjyJ6qYS', 'sni': 't6.ssrsub.one'}
-  - {'name': '52.255.146.24244', 'type': 'vmess', 'server': '52.255.146.242', 'port': '28380', 'uuid': 'a232e331-bff8-48d4-f9a6-2436cf41aa26', 'alterId': '64', 'cipher': 'none'}
-  - {'name': '15.164.227.24745', 'type': 'vmess', 'server': '15.164.227.247', 'port': '10891', 'uuid': '62affe81-79f0-4c07-ed18-a69b97081542', 'alterId': '64', 'cipher': 'none', 'ws-path': '/'}
-  - {'name': '23.82.11.4946', 'server': '23.82.11.49', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
-  - {'name': '45.134.224.1547', 'server': '45.134.224.15', 'port': '46642', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'gYL83DQWXuDbxmZAVVtUTXaK'}
-  - {'name': '美国内华达州拉斯维加斯BuyVM+4848', 'server': 'a7.ssrsub.one', 'port': '8443', 'type': 'trojan', 'password': 'kBFMVjsv', 'sni': 'a7.ssrsub.one'}
-  - {'name': '91.90.123.11549', 'server': '91.90.123.115', 'port': '45329', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CXSjgD7u7Ar7GxkZ4CgTMUsj'}
-  - {'name': '95.214.55.11950', 'type': 'vmess', 'server': '95.214.55.119', 'port': '16408', 'uuid': '4e49e7c6-b7cd-4c74-c022-2add80a19556', 'alterId': '64', 'cipher': 'none', 'ws-path': '/'}
-  - {'name': '3.66.221.17551', 'type': 'vmess', 'server': '3.66.221.175', 'port': '31186', 'uuid': '3ebad99a-4470-4998-94be-43046d0b4986', 'alterId': '64', 'cipher': 'none', 'ws-path': '/'}
-  - {'name': '45.88.179.3552', 'type': 'vmess', 'server': '45.88.179.35', 'port': '44657', 'uuid': '085e6815-e476-411a-a9a6-4e5306a1b875', 'alterId': '0', 'cipher': 'none'}
-  - {'name': '俄罗斯新西伯利亚JustHost+5353', 'server': 'a6.ssrsub.one', 'port': '8443', 'type': 'trojan', 'password': '5hE4y8tM', 'sni': 'a6.ssrsub.one'}
-  - {'name': '82.102.26.11754', 'server': '82.102.26.117', 'port': '47027', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Vt5pBJFwdtNB26cJbTXxm88Z'}
-  - {'name': '152.67.225.11455', 'type': 'vmess', 'server': '152.67.225.114', 'port': '23456', 'uuid': '86e46276-7b5a-445e-8a66-1f3ec592fc8f', 'alterId': '32', 'cipher': 'none', 'network': 'ws', 'ws-path': '/cs'}
-  - {'name': 'jpaz1-1.biteb.xyz56', 'type': 'vmess', 'server': 'jpaz1-1.biteb.xyz', 'port': '51087', 'uuid': 'c247be5d-6fe5-31c7-9b24-3d496f830404', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/v2ray'}
-  - {'name': '42.81.8.157', 'type': 'vmess', 'server': '42.81.8.1', 'port': '80', 'uuid': '9f82bbb5-c48b-4963-a776-5c43ddaf0edb', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '112.25.91.158', 'type': 'vmess', 'server': '112.25.91.1', 'port': '80', 'uuid': '9f82bbb5-c48b-4963-a776-5c43ddaf0edb', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '117.34.14.159', 'type': 'vmess', 'server': '117.34.14.1', 'port': '80', 'uuid': '9f82bbb5-c48b-4963-a776-5c43ddaf0edb', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '58.211.137.160', 'type': 'vmess', 'server': '58.211.137.1', 'port': '80', 'uuid': '9f82bbb5-c48b-4963-a776-5c43ddaf0edb', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': 'twn01.ip4.ddns.acg.photos61', 'type': 'vmess', 'server': 'twn01.ip4.ddns.acg.photos', 'port': '80', 'uuid': '9f82bbb5-c48b-4963-a776-5c43ddaf0edb', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
-  - {'name': 'sgaws2.biteb.xyz62', 'type': 'vmess', 'server': 'sgaws2.biteb.xyz', 'port': '51085', 'uuid': 'c247be5d-6fe5-31c7-9b24-3d496f830404', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/v2ray'}
-  - {'name': 'sgaws3.biteb.club63', 'type': 'vmess', 'server': 'sgaws3.biteb.club', 'port': '51065', 'uuid': 'c247be5d-6fe5-31c7-9b24-3d496f830404', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/v2ray'}
-  - {'name': 'kraws1.biteb.xyz64', 'type': 'vmess', 'server': 'kraws1.biteb.xyz', 'port': '51076', 'uuid': 'c247be5d-6fe5-31c7-9b24-3d496f830404', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/v2ray'}
-  - {'name': '125.39.174.165', 'type': 'vmess', 'server': '125.39.174.1', 'port': '80', 'uuid': '9f82bbb5-c48b-4963-a776-5c43ddaf0edb', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '75.2.93.10466', 'type': 'vmess', 'server': '75.2.93.104', 'port': '51086', 'uuid': 'c247be5d-6fe5-31c7-9b24-3d496f830404', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/v2ray'}
-  - {'name': '15.197.155.12367', 'type': 'vmess', 'server': '15.197.155.123', 'port': '51082', 'uuid': 'c247be5d-6fe5-31c7-9b24-3d496f830404', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/v2ray'}
-  - {'name': '125.39.174.168', 'type': 'vmess', 'server': '125.39.174.1', 'port': '80', 'uuid': '9f82bbb5-c48b-4963-a776-5c43ddaf0edb', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': '42.236.94.169', 'type': 'vmess', 'server': '42.236.94.1', 'port': '80', 'uuid': '9f82bbb5-c48b-4963-a776-5c43ddaf0edb', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
-  - {'name': 'usin1.biteb.club70', 'type': 'vmess', 'server': 'usin1.biteb.club', 'port': '51012', 'uuid': 'c247be5d-6fe5-31c7-9b24-3d496f830404', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/v2ray'}
+  - {'name': '104.19.19.2531', 'type': 'vmess', 'server': '104.19.19.253', 'port': '443', 'uuid': 'aa209e52-9bfa-4c05-96b0-e962da2cb457', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/xrayvws'}
+  - {'name': '104.19.16.2202', 'type': 'vmess', 'server': '104.19.16.220', 'port': '443', 'uuid': 'aa209e52-9bfa-4c05-96b0-e962da2cb457', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/xrayvws'}
+  - {'name': '104.19.79.2023', 'type': 'vmess', 'server': '104.19.79.202', 'port': '443', 'uuid': 'aa209e52-9bfa-4c05-96b0-e962da2cb457', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/xrayvws'}
+  - {'name': '104.19.42.204', 'type': 'vmess', 'server': '104.19.42.20', 'port': '443', 'uuid': 'aa209e52-9bfa-4c05-96b0-e962da2cb457', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/xrayvws'}
+  - {'name': '104.27.123.785', 'type': 'vmess', 'server': '104.27.123.78', 'port': '443', 'uuid': 'aa209e52-9bfa-4c05-96b0-e962da2cb457', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/xrayvws'}
+  - {'name': 'auto.freev2.top6', 'type': 'vmess', 'server': 'auto.freev2.top', 'port': '54618', 'uuid': '33a4590c-7049-4ad3-910b-d8bf215f212f', 'alterId': '1', 'cipher': 'none'}
+  - {'name': '54.223.185.1717', 'type': 'vmess', 'server': '54.223.185.171', 'port': '8002', 'uuid': 'bb511347-6ed5-475c-9ffe-ac7268fdf351', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
+  - {'name': '54.223.185.1718', 'type': 'vmess', 'server': '54.223.185.171', 'port': '8004', 'uuid': 'bb511347-6ed5-475c-9ffe-ac7268fdf351', 'alterId': '1', 'cipher': 'none', 'network': 'ws'}
+  - {'name': '143.92.40.1999', 'type': 'vmess', 'server': '143.92.40.199', 'port': '443', 'uuid': '5c42cb0b-12bc-4053-9eda-4257c72cc181', 'alterId': '0', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/sometimesnaive'}
+  - {'name': 'zz.akjf3.com10', 'type': 'vmess', 'server': 'zz.akjf3.com', 'port': '39230', 'uuid': '6ebb0535-0eb3-365a-8b4e-d09cd94dcd6f', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/sn'}
+  - {'name': 'zz.akjf3.com11', 'type': 'vmess', 'server': 'zz.akjf3.com', 'port': '39229', 'uuid': '6ebb0535-0eb3-365a-8b4e-d09cd94dcd6f', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/sn'}
+  - {'name': '54.223.185.17112', 'type': 'vmess', 'server': '54.223.185.171', 'port': '8001', 'uuid': 'bb511347-6ed5-475c-9ffe-ac7268fdf351', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': '23.225.125.19513', 'type': 'vmess', 'server': '23.225.125.195', 'port': '443', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/path/301109172001'}
+  - {'name': 'zz.akjf3.com14', 'type': 'vmess', 'server': 'zz.akjf3.com', 'port': '39212', 'uuid': '6ebb0535-0eb3-365a-8b4e-d09cd94dcd6f', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/sn'}
+  - {'name': '154.84.1.1415', 'type': 'vmess', 'server': '154.84.1.14', 'port': '443', 'uuid': '21155efd-8e29-43d2-95bc-fe3190ecb1c6', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/path/310910211916'}
+  - {'name': '104.21.48.16116', 'type': 'vmess', 'server': '104.21.48.161', 'port': '443', 'uuid': '3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
+  - {'name': '104.18.7.13817', 'type': 'vmess', 'server': '104.18.7.138', 'port': '443', 'uuid': '3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
+  - {'name': '137.59.52.10718', 'server': '137.59.52.107', 'port': '40093', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'x23Z4LGkGDkThZ9Kaz4DURQp'}
+  - {'name': '172.67.154.8519', 'type': 'vmess', 'server': '172.67.154.85', 'port': '443', 'uuid': '3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
+  - {'name': '104.19.45.11720', 'type': 'vmess', 'server': '104.19.45.117', 'port': '443', 'uuid': '3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
+  - {'name': '104.18.6.13821', 'type': 'vmess', 'server': '104.18.6.138', 'port': '443', 'uuid': '3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/'}
+  - {'name': 'cm-jm.smdynet.com22', 'type': 'vmess', 'server': 'cm-jm.smdynet.com', 'port': '20005', 'uuid': 'a26aa399-d112-436c-8e1e-6d87b3168b3c', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': '172.67.153.23823', 'type': 'vmess', 'server': '172.67.153.238', 'port': '443', 'uuid': '356ed062-4f58-49c3-bd44-c0b6db1c94ee', 'alterId': '0', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/stream'}
+  - {'name': '95.214.55.11924', 'type': 'vmess', 'server': '95.214.55.119', 'port': '16408', 'uuid': '4e49e7c6-b7cd-4c74-c022-2add80a19556', 'alterId': '64', 'cipher': 'none', 'ws-path': '/'}
+  - {'name': '54.223.185.17125', 'type': 'vmess', 'server': '54.223.185.171', 'port': '8000', 'uuid': 'bb511347-6ed5-475c-9ffe-ac7268fdf351', 'alterId': '1', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': '23.82.11.4926', 'server': '23.82.11.49', 'port': '39772', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CUndSZnYsPKcu6Kj8THVMBHD'}
+  - {'name': '152.67.225.11427', 'type': 'vmess', 'server': '152.67.225.114', 'port': '23456', 'uuid': '86e46276-7b5a-445e-8a66-1f3ec592fc8f', 'alterId': '32', 'cipher': 'none', 'network': 'ws', 'ws-path': '/cs'}
+  - {'name': '82.102.26.11728', 'server': '82.102.26.117', 'port': '47027', 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Vt5pBJFwdtNB26cJbTXxm88Z'}
+  - {'name': '3.66.221.17529', 'type': 'vmess', 'server': '3.66.221.175', 'port': '31186', 'uuid': '3ebad99a-4470-4998-94be-43046d0b4986', 'alterId': '64', 'cipher': 'none', 'ws-path': '/'}
+  - {'name': '52.255.146.24230', 'type': 'vmess', 'server': '52.255.146.242', 'port': '28380', 'uuid': 'a232e331-bff8-48d4-f9a6-2436cf41aa26', 'alterId': '64', 'cipher': 'none'}
+  - {'name': '120.232.214.24531', 'type': 'vmess', 'server': '120.232.214.245', 'port': '47003', 'uuid': 'b815d9cf-eead-3fc1-8c27-9c1ff3962b69', 'alterId': '2', 'cipher': 'none', 'network': 'ws', 'ws-path': '/hls'}
+  - {'name': '23.224.30.7032', 'type': 'vmess', 'server': '23.224.30.70', 'port': '443', 'uuid': '688f4b5d-ce9a-4729-abe5-b66ca96b2ee9', 'alterId': '64', 'cipher': 'none', 'network': 'ws', 'tls': True, 'ws-path': '/footers'}
+  - {'name': '91.245.227.13533', 'type': 'vmess', 'server': '91.245.227.135', 'port': '38166', 'uuid': '9551d4fd-610e-4bf3-9f93-1df5452c3654', 'alterId': '32', 'cipher': 'none', 'network': 'ws', 'ws-path': '/'}
+  - {'name': '165.154.234.15234', 'type': 'vmess', 'server': '165.154.234.152', 'port': '42541', 'uuid': '41bfdf53-a03c-4233-a86a-f981a002d753', 'alterId': '0', 'cipher': 'none'}
+  - {'name': '5.183.101.20435', 'type': 'vmess', 'server': '5.183.101.204', 'port': '59857', 'uuid': '4c35d374-dbf2-4e5f-c731-dfa49191825a', 'alterId': '64', 'cipher': 'none'}
 
 proxy-groups:
 
@@ -120,150 +85,80 @@ proxy-groups:
 - name: 🖱️select
   type: select
   proxies:
-    - "16.162.3.111"
-    - "18.157.179.712"
-    - "俄罗斯++33"
-    - "148.72.169.2134"
-    - "104.200.131.1655"
-    - "198.2.200.2186"
-    - "54.177.24.17"
-    - "23.225.125.1958"
-    - "23.224.30.709"
-    - "23.224.30.6910"
-    - "23.224.8.9211"
-    - "198.211.3.15412"
-    - "198.2.200.21713"
-    - "俄罗斯++1414"
-    - "185.38.150.12415"
-    - "154.84.1.1416"
-    - "46.182.107.4617"
-    - "46.182.107.14718"
-    - "154.84.1.11619"
-    - "46.182.107.3920"
-    - "154.84.1.1521"
-    - "46.182.107.9822"
-    - "46.182.107.15323"
-    - "46.182.107.324"
-    - "46.182.107.14625"
-    - "154.84.1.10626"
-    - "46.182.107.4527"
-    - "23.225.28.17328"
-    - "46.182.107.8129"
-    - "46.182.107.15030"
-    - "46.182.107.3631"
-    - "95.214.55.11832"
-    - "104.18.6.13833"
-    - "137.59.52.10734"
-    - "23.225.28.17235"
-    - "104.21.48.16136"
-    - "137.59.52.10737"
-    - "5.183.101.20038"
-    - "104.19.1.16839"
-    - "165.154.234.15240"
-    - "95.214.55.12041"
-    - "104.18.7.13842"
-    - "俄罗斯新西伯利亚JustHost+4343"
-    - "52.255.146.24244"
-    - "15.164.227.24745"
-    - "23.82.11.4946"
-    - "45.134.224.1547"
-    - "美国内华达州拉斯维加斯BuyVM+4848"
-    - "91.90.123.11549"
-    - "95.214.55.11950"
-    - "3.66.221.17551"
-    - "45.88.179.3552"
-    - "俄罗斯新西伯利亚JustHost+5353"
-    - "82.102.26.11754"
-    - "152.67.225.11455"
-    - "jpaz1-1.biteb.xyz56"
-    - "42.81.8.157"
-    - "112.25.91.158"
-    - "117.34.14.159"
-    - "58.211.137.160"
-    - "twn01.ip4.ddns.acg.photos61"
-    - "sgaws2.biteb.xyz62"
-    - "sgaws3.biteb.club63"
-    - "kraws1.biteb.xyz64"
-    - "125.39.174.165"
-    - "75.2.93.10466"
-    - "15.197.155.12367"
-    - "125.39.174.168"
-    - "42.236.94.169"
-    - "usin1.biteb.club70"
+    - "104.19.19.2531"
+    - "104.19.16.2202"
+    - "104.19.79.2023"
+    - "104.19.42.204"
+    - "104.27.123.785"
+    - "auto.freev2.top6"
+    - "54.223.185.1717"
+    - "54.223.185.1718"
+    - "143.92.40.1999"
+    - "zz.akjf3.com10"
+    - "zz.akjf3.com11"
+    - "54.223.185.17112"
+    - "23.225.125.19513"
+    - "zz.akjf3.com14"
+    - "154.84.1.1415"
+    - "104.21.48.16116"
+    - "104.18.7.13817"
+    - "137.59.52.10718"
+    - "172.67.154.8519"
+    - "104.19.45.11720"
+    - "104.18.6.13821"
+    - "cm-jm.smdynet.com22"
+    - "172.67.153.23823"
+    - "95.214.55.11924"
+    - "54.223.185.17125"
+    - "23.82.11.4926"
+    - "152.67.225.11427"
+    - "82.102.26.11728"
+    - "3.66.221.17529"
+    - "52.255.146.24230"
+    - "120.232.214.24531"
+    - "23.224.30.7032"
+    - "91.245.227.13533"
+    - "165.154.234.15234"
+    - "5.183.101.20435"
 # > 💻auto_select
 - name: 💻auto_select
   type: url-test
   proxies:
-    - "16.162.3.111"
-    - "18.157.179.712"
-    - "俄罗斯++33"
-    - "148.72.169.2134"
-    - "104.200.131.1655"
-    - "198.2.200.2186"
-    - "54.177.24.17"
-    - "23.225.125.1958"
-    - "23.224.30.709"
-    - "23.224.30.6910"
-    - "23.224.8.9211"
-    - "198.211.3.15412"
-    - "198.2.200.21713"
-    - "俄罗斯++1414"
-    - "185.38.150.12415"
-    - "154.84.1.1416"
-    - "46.182.107.4617"
-    - "46.182.107.14718"
-    - "154.84.1.11619"
-    - "46.182.107.3920"
-    - "154.84.1.1521"
-    - "46.182.107.9822"
-    - "46.182.107.15323"
-    - "46.182.107.324"
-    - "46.182.107.14625"
-    - "154.84.1.10626"
-    - "46.182.107.4527"
-    - "23.225.28.17328"
-    - "46.182.107.8129"
-    - "46.182.107.15030"
-    - "46.182.107.3631"
-    - "95.214.55.11832"
-    - "104.18.6.13833"
-    - "137.59.52.10734"
-    - "23.225.28.17235"
-    - "104.21.48.16136"
-    - "137.59.52.10737"
-    - "5.183.101.20038"
-    - "104.19.1.16839"
-    - "165.154.234.15240"
-    - "95.214.55.12041"
-    - "104.18.7.13842"
-    - "俄罗斯新西伯利亚JustHost+4343"
-    - "52.255.146.24244"
-    - "15.164.227.24745"
-    - "23.82.11.4946"
-    - "45.134.224.1547"
-    - "美国内华达州拉斯维加斯BuyVM+4848"
-    - "91.90.123.11549"
-    - "95.214.55.11950"
-    - "3.66.221.17551"
-    - "45.88.179.3552"
-    - "俄罗斯新西伯利亚JustHost+5353"
-    - "82.102.26.11754"
-    - "152.67.225.11455"
-    - "jpaz1-1.biteb.xyz56"
-    - "42.81.8.157"
-    - "112.25.91.158"
-    - "117.34.14.159"
-    - "58.211.137.160"
-    - "twn01.ip4.ddns.acg.photos61"
-    - "sgaws2.biteb.xyz62"
-    - "sgaws3.biteb.club63"
-    - "kraws1.biteb.xyz64"
-    - "125.39.174.165"
-    - "75.2.93.10466"
-    - "15.197.155.12367"
-    - "125.39.174.168"
-    - "42.236.94.169"
-    - "usin1.biteb.club70"
+    - "104.19.19.2531"
+    - "104.19.16.2202"
+    - "104.19.79.2023"
+    - "104.19.42.204"
+    - "104.27.123.785"
+    - "auto.freev2.top6"
+    - "54.223.185.1717"
+    - "54.223.185.1718"
+    - "143.92.40.1999"
+    - "zz.akjf3.com10"
+    - "zz.akjf3.com11"
+    - "54.223.185.17112"
+    - "23.225.125.19513"
+    - "zz.akjf3.com14"
+    - "154.84.1.1415"
+    - "104.21.48.16116"
+    - "104.18.7.13817"
+    - "137.59.52.10718"
+    - "172.67.154.8519"
+    - "104.19.45.11720"
+    - "104.18.6.13821"
+    - "cm-jm.smdynet.com22"
+    - "172.67.153.23823"
+    - "95.214.55.11924"
+    - "54.223.185.17125"
+    - "23.82.11.4926"
+    - "152.67.225.11427"
+    - "82.102.26.11728"
+    - "3.66.221.17529"
+    - "52.255.146.24230"
+    - "120.232.214.24531"
+    - "23.224.30.7032"
+    - "91.245.227.13533"
+    - "165.154.234.15234"
+    - "5.183.101.20435"
   url: 'http://www.gstatic.com/generate_204'
   interval: 600
 # > 📺BiliBili
